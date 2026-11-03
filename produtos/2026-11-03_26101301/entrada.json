@@ -1,0 +1,10 @@
+{
+  "sku": "26101301",
+  "nome": "Blusa Feminina de Tule Transparente Manga Curta Gola Redonda",
+  "descricao_arquivo": "descricao.html",
+  "preco": 39.9,
+  "situacao": "A",
+  "cores": ["Preto"],
+  "tamanhos": ["P", "M", "G", "GG"],
+  "gtins": {"26101301PretoP": "7795792443571", "26101301PretoM": "7795792452719", "26101301PretoG": "7795792452788", "26101301PretoGG": "7795792452955"}
+}

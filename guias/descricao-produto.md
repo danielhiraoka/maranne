@@ -85,6 +85,7 @@ com termos de busca (bom para Mercado Livre/Shopee/Google).
 | Malha Viscolycra | 96% Viscose e 4% Elastano | Tecido leve, fresco e muito macio ao toque. Sua composição elástica proporciona um caimento perfeito e ajusta-se suavemente ao corpo, garantindo conforto e liberdade de movimento. |
 | Suplex | 92% Poliéster e 8% Elastano (2605087); 98%/2% no 2601101 — confirmar sempre | Tecido macio, confortável e com ótima elasticidade, proporcionando um caimento ajustado ao corpo sem abrir mão da liberdade de movimentos. Toque agradável, ótima opção para o dia a dia. |
 | Ribana Canelada | 97% Poliéster e 3% Elastano | Tecido macio e flexível, conhecido pelas listras em relevo que garantem elasticidade, ajuste ao corpo e muito conforto. Valoriza o caimento e acompanha os movimentos sem perder a forma. |
+| Tule | 96% Poliéster e 4% Elastano (26101301) | Tecido leve, fino e transparente, com toque macio e boa elasticidade. Ajusta-se ao corpo com conforto e tem um caimento delicado, ideal para sobreposições e looks com transparência. |
 | Ribana Lafayete | 93% Viscose e 7% Elastano | (escrever no 1º uso e acrescentar aqui) |
 | Malha Buble | 96% Viscose e 4% Elastano | (escrever no 1º uso e acrescentar aqui) |
 

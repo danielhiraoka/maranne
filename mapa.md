@@ -15,6 +15,7 @@
 ## Wiki
 - `guias/descricao-produto.md` — padrão de títulos, descrições, medidas, tecidos e kits (usado pelas skills de cadastro)
 - `pessoas.md` — sócios, equipe, quem cuida de quê, contatos externos
+- `analises/<data>_<tema>.md` — análises de vendas, margem, promoções e ads (relatórios completos; o log aponta para elas)
 - `log/AAAA/MM/` — diário de ações, análises e decisões (buscar por etiqueta)
 
 ## Ferramentas

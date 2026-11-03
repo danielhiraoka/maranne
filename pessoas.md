@@ -32,4 +32,6 @@ Quem é quem na Maranne. Use o **apelido** no campo `<pessoa>` do log. Para dire
 
 ## Contatos externos
 
+- **Belline Confecções** (BELLINE CONFECCOES LTDA, contato Bling 8611934069): fornecedor das blusas 2601101, 2605087 e 26101301. O pessoal chama de "Bellini"; no Bling o nome é com "e".
+
 _(fornecedores, facção, transportadora, Emori, Bling — adicionar quando aparecerem)_
