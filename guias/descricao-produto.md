@@ -67,8 +67,8 @@ com termos de busca (bom para Mercado Livre/Shopee/Google).
 
 - **Título:** `Kit 2 Blusas Feminina {resto do título da peça}` (padrão 2026).
   Antigo: `KIT - 2 …` — não usar mais.
-- **Descrição:** a da peça unitária + bloco de composição logo depois da DESCRIÇÃO DO PRODUTO
-  (antes de DETALHES DO TECIDO):
+- **Descrição:** a da peça unitária — **inclusive as MEDIDAS, que vêm sempre do produto unitário** —
+  + bloco de composição logo depois da DESCRIÇÃO DO PRODUTO (antes de DETALHES DO TECIDO):
   ```
   COMPOSIÇÃO DO KIT:
   Kit21: 1x Preto, 1x Branco
@@ -83,7 +83,7 @@ com termos de busca (bom para Mercado Livre/Shopee/Google).
 | Tecido | Composição usual | Descrição do tecido |
 |---|---|---|
 | Malha Viscolycra | 96% Viscose e 4% Elastano | Tecido leve, fresco e muito macio ao toque. Sua composição elástica proporciona um caimento perfeito e ajusta-se suavemente ao corpo, garantindo conforto e liberdade de movimento. |
-| Malha Suplex | 98% Poliéster e 2% Elastano | Tecido macio, confortável e com ótima elasticidade, proporcionando um caimento ajustado ao corpo sem abrir mão da liberdade de movimentos. Toque agradável, ótima opção para o dia a dia. |
+| Suplex | 92% Poliéster e 8% Elastano (2605087); 98%/2% no 2601101 — confirmar sempre | Tecido macio, confortável e com ótima elasticidade, proporcionando um caimento ajustado ao corpo sem abrir mão da liberdade de movimentos. Toque agradável, ótima opção para o dia a dia. |
 | Ribana Canelada | 97% Poliéster e 3% Elastano | Tecido macio e flexível, conhecido pelas listras em relevo que garantem elasticidade, ajuste ao corpo e muito conforto. Valoriza o caimento e acompanha os movimentos sem perder a forma. |
 | Ribana Lafayete | 93% Viscose e 7% Elastano | (escrever no 1º uso e acrescentar aqui) |
 | Malha Buble | 96% Viscose e 4% Elastano | (escrever no 1º uso e acrescentar aqui) |
@@ -122,15 +122,21 @@ Ex.: "Blusa Feminina Um Ombro Só de Suplex com Estampa de Poá", "Blusa Feminin
 
 ## 9. Erros encontrados no Bling (corrigir quando editar)
 
-- 2605087 e o kit: título diz **Suplex**, mas a descrição diz "Malha Viscolyra" 96% Viscose
-  (tecido divergente e "Viscolyra" sem o c).
-- 2605087Kit2 e 2601101Kit2: **sem** bloco COMPOSIÇÃO DO KIT; 2601101Kit2 com MEDIDAS vazio.
+- ~~2605087 e o kit: tecido errado (Viscolyra)~~ — **corrigido em 03/11/2026** (Suplex 92/8) no pai e nas variações.
+- ~~2605087Kit2 sem COMPOSIÇÃO DO KIT~~ — **corrigido em 03/11/2026**.
+- ~~2601101Kit2 sem COMPOSIÇÃO DO KIT~~ — **corrigido em 03/11/2026** (HTML refeito; tinha tags trocadas).
+- **2601101 (unitário) e 2601101Kit2 sem MEDIDAS** — pendente: medidas ainda não existem.
 - "Medidas da Ju" com manequim **38/P** (antigos) e **38/M** (2026) e altura "1.60 cm" — trocar pela
   linha padrão de medidas da modelo (§3).
 - Erros de digitação repetidos no texto fixo antigo: "torcio", "Deste forma"; "comoposto",
   "Canaledas".
 - Composição de kit escrita de 4 jeitos diferentes ("COMPOSIÇÃO KIT 5:", "*Kit composto por",
   "** Kit1 é composto por", "Cores:") — padronizar como no §4.
+
+## Ao editar descrição no Bling
+
+Cada **variação tem a própria cópia da descrição** e o Bling **não** copia a do pai. Corrigir só o pai
+deixa o texto antigo nas variações: atualize o pai **e cada variação** (`patchProduct` no id de cada uma).
 
 ## Decisões (daniel, 03/11/2026)
 
