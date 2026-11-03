@@ -1,0 +1,748 @@
+{
+ "tipo": "P",
+ "situacao": "A",
+ "unidade": "UN",
+ "marca": "Maranne",
+ "preco": 100.0,
+ "itensPorCaixa": 2,
+ "pesoBruto": 0.6,
+ "pesoLiquido": 0.6,
+ "dimensoes": {
+  "altura": 5,
+  "largura": 10,
+  "profundidade": 5,
+  "unidadeMedida": 1
+ },
+ "categoria": {
+  "id": 2381792
+ },
+ "camposCustomizados": [
+  {
+   "idCampoCustomizado": 715880,
+   "valor": "54884514"
+  },
+  {
+   "idCampoCustomizado": 2014914,
+   "valor": "167269464"
+  }
+ ],
+ "tributacao": {
+  "ncm": "6208.22.00",
+  "cest": "28.059.00",
+  "origem": 0
+ },
+ "nome": "KIT - 2 BABY DOLL BUBLE FEMININO",
+ "codigo": "2209121Kit2",
+ "formato": "V",
+ "descricaoCurta": "<h4><strong>DETALHES:</strong></h4>\n<p><strong>Tecido</strong>: Malha Buble 96% Viscose e 4% elastano</p>\n<p>Baby doll Buble Feminino com alça regulável, shorts de elástico e cintura alta é uma peça encantadora e delicada que evoca uma sensação de feminilidade e romance, essa peça oferece um visual elegante e sedutor, prefeito para momentos especiais. VOCÊ VAI AMAR!!!</p>\n<p><strong>COMPOSIÇÃO DO KIT:</strong><br />Kit21: 1x Offwhite, 1x Preto<br />Kit22: 1x Offwhite, 1x Rosa<br />Kit23: 1x Preto, 1x Rosa</p>\n<p><br /><strong>– ESTAMPA: <strong>se a peça for estampada, lembre-se de que</strong></strong><strong> <u>a localização da estampa em cada peça é diferente</u>, devido à forma como o tecido é cortado, <u>não</u> sendo possível escolher como a estampa estará distribuída em sua peça.</strong></p>\n<p><strong>SUGESTÃO DE TAMANHOS:</strong></p>\n<p>Se você usa 36 ou 38: sugerimos o tamanho P!<br />Se você usa 40 ou 42: sugerimos o tamanho M!<br />Se você usa 44 : sugerimos o tamanho G!<br />Se você usa 46: sugerimos o tamanho GG!</p>\n<p> <strong>MEDIDAS APROXIMADAS:</strong></p>\n<p>P – Quadril: até 100cm / Cintura: até 70cm / Comprimento: 34cm / Cavalo: 26cm / Busto: até 90cm / Comprimento Kimono: 60cm / Top: 23cm<br />M – Quadril: até 105cm / Cintura: até 75cm / Comprimento: 35cm / Cavalo: 28cm / Busto: até 100cm / Comprimento Kimono: 62cm / Top: 25cm<br />G – Quadril: até 110cm / Cintura: até 80cm / Comprimento: 38cm / Cavalo: 30cm / Busto: até 110cm / Comprimento Kimono: 64cm / Top: 27cm<br />GG – Quadril: até 115cm / Cintura: até 85cm / Comprimento: 40cm / Cavalo: 32cm / Busto: até 120cm / Comprimento Kimono: 66cm / Top: 29cm</p>\n<p><strong>Medidas da Ju:</strong> ​Altura: 1.60 cm | Busto: 90 cm | Cintura: 68 cm | Quadril: 100 cm | Manequim: 38/P</p>\n<p><strong>ATENÇÃO – </strong><strong>Cor, encolhimento, instruções de lavagem</strong>:<br />– Conforme instrução de lavagem na etiqueta: <strong>esta peça pode ser lavada em máquina porém não deve ser usado o modo secagem/secadora. </strong>Este tecido por ser delicado, as costuras podem ser danificadas então indicamos que NÃO seja torcio à mão e também por ser estampado/colorido não deixar de molho. Deste forma, sua peça será <strong>melhor conservada</strong>, bem como a taxa de <strong>encolhimento </strong>será menor. =)</p>\n<p><strong>– ENCOLHIMENTO: Como trata-se de uma malha</strong>, após a primeira lavagem, há uma taxa de encolhimento de até <strong>10%</strong> da peça (se lavada e secada corretamente). </p>\n<p>– <strong>COR</strong>: Como são produzidas em estúdio as fotos podem apresentar uma pequena variação de cor por conta do flash e também tem o fator de cada monitor/celular que pode mudar a tonalidade.</p>\n",
+ "variacoes": [
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit21;Tamanho:P",
+   "codigo": "2209121Kit21P",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit21;Tamanho:P",
+    "ordem": 1,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272457
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272450
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit21;Tamanho:M",
+   "codigo": "2209121Kit21M",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit21;Tamanho:M",
+    "ordem": 2,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272459
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272452
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit21;Tamanho:G",
+   "codigo": "2209121Kit21G",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit21;Tamanho:G",
+    "ordem": 3,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272461
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272453
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit21;Tamanho:GG",
+   "codigo": "2209121Kit21GG",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit21;Tamanho:GG",
+    "ordem": 4,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272462
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272455
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit22;Tamanho:P",
+   "codigo": "2209121Kit22P",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit22;Tamanho:P",
+    "ordem": 5,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272457
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272465
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit22;Tamanho:M",
+   "codigo": "2209121Kit22M",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit22;Tamanho:M",
+    "ordem": 6,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272459
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272466
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit22;Tamanho:G",
+   "codigo": "2209121Kit22G",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit22;Tamanho:G",
+    "ordem": 7,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272461
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272467
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit22;Tamanho:GG",
+   "codigo": "2209121Kit22GG",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit22;Tamanho:GG",
+    "ordem": 8,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272462
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272468
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit23;Tamanho:P",
+   "codigo": "2209121Kit23P",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit23;Tamanho:P",
+    "ordem": 9,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272450
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272465
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit23;Tamanho:M",
+   "codigo": "2209121Kit23M",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit23;Tamanho:M",
+    "ordem": 10,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272452
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272466
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit23;Tamanho:G",
+   "codigo": "2209121Kit23G",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit23;Tamanho:G",
+    "ordem": 11,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272453
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272467
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 100.0,
+   "itensPorCaixa": 2,
+   "pesoBruto": 0.6,
+   "pesoLiquido": 0.6,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 5,
+    "unidadeMedida": 1
+   },
+   "categoria": {
+    "id": 2381792
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 2014914,
+     "valor": "167269464"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6208.22.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "KIT - 2 BABY DOLL BUBLE FEMININO Cor:Kit23;Tamanho:GG",
+   "codigo": "2209121Kit23GG",
+   "formato": "E",
+   "variacao": {
+    "nome": "Cor:Kit23;Tamanho:GG",
+    "ordem": 12,
+    "produtoPai": {}
+   },
+   "estrutura": {
+    "tipoEstoque": "V",
+    "componentes": [
+     {
+      "produto": {
+       "id": 16116272455
+      },
+      "quantidade": 1
+     },
+     {
+      "produto": {
+       "id": 16116272468
+      },
+      "quantidade": 1
+     }
+    ]
+   }
+  }
+ ]
+}

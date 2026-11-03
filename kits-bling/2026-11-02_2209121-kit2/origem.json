@@ -1,0 +1,113 @@
+{
+ "pecas": {
+  "Preto": {
+   "P": {
+    "id": 16116272450,
+    "codigo": "2209121PretoP",
+    "estoque": 20
+   },
+   "M": {
+    "id": 16116272452,
+    "codigo": "2209121PretoM",
+    "estoque": 21
+   },
+   "G": {
+    "id": 16116272453,
+    "codigo": "2209121PretoG",
+    "estoque": 19
+   },
+   "GG": {
+    "id": 16116272455,
+    "codigo": "2209121PretoGG",
+    "estoque": 19
+   }
+  },
+  "Offwhite": {
+   "P": {
+    "id": 16116272457,
+    "codigo": "2209121OffwhiteP",
+    "estoque": 41
+   },
+   "M": {
+    "id": 16116272459,
+    "codigo": "2209121OffwhiteM",
+    "estoque": 38
+   },
+   "G": {
+    "id": 16116272461,
+    "codigo": "2209121OffwhiteG",
+    "estoque": 38
+   },
+   "GG": {
+    "id": 16116272462,
+    "codigo": "2209121OffwhiteGG",
+    "estoque": 34
+   }
+  },
+  "Rosa": {
+   "P": {
+    "id": 16116272465,
+    "codigo": "2209121RosaP",
+    "estoque": 0
+   },
+   "M": {
+    "id": 16116272466,
+    "codigo": "2209121RosaM",
+    "estoque": -1
+   },
+   "G": {
+    "id": 16116272467,
+    "codigo": "2209121RosaG",
+    "estoque": -1
+   },
+   "GG": {
+    "id": 16116272468,
+    "codigo": "2209121RosaGG",
+    "estoque": 0
+   }
+  }
+ },
+ "copiar": {
+  "categoria": 2381792,
+  "marca": "Maranne",
+  "unidade": "UN",
+  "pesoBruto": 0.3,
+  "pesoLiquido": 0.3,
+  "dimensoes": {
+   "altura": 5,
+   "largura": 10,
+   "profundidade": 5,
+   "unidadeMedida": 1
+  },
+  "camposCustomizados": [
+   {
+    "idCampoCustomizado": 715880,
+    "idVinculo": 549300583,
+    "item": "Mulher",
+    "valor": "54884514"
+   },
+   {
+    "idCampoCustomizado": 715880,
+    "idVinculo": 484186405,
+    "item": "Mulher",
+    "valor": "54884514"
+   },
+   {
+    "idCampoCustomizado": 2014914,
+    "idVinculo": 549300584,
+    "item": "Primavera/Verão",
+    "valor": "167269464"
+   },
+   {
+    "idCampoCustomizado": 2014914,
+    "idVinculo": 484186406,
+    "item": "Primavera/Verão",
+    "valor": "167269464"
+   }
+  ],
+  "descricaoCurta": "<div data-mce-fragment=\"1\" style=\"box-sizing: border-box; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline;\">\r\n<h4 style=\"color: #878787; font-family: 'Playfair Display', Helvetica, Arial, sans-serif; font-size: 18px; background-color: #f6f6f8; box-sizing: inherit; margin-top: 0px;\"><strong style=\"box-sizing: inherit;\">DETALHES:</strong></h4>\r\n<p style=\"color: #878787; font-family: Poppins; font-size: 18px; background-color: #f6f6f8; box-sizing: inherit; line-height: 20px;\"><strong style=\"box-sizing: inherit;\">Tecido</strong>: Malha Buble 96% Viscose e 4% elastano</p>\r\n<p style=\"color: #878787; font-family: Poppins; font-size: 18px; background-color: #f6f6f8; box-sizing: inherit; line-height: 20px;\"> </p>\r\n<p style=\"box-sizing: inherit; line-height: 20px;\"><span data-mce-fragment=\"1\" style=\"box-sizing: inherit;\"><span style=\"color: #878787; font-family: Poppins;\"><span style=\"font-size: 18px; background-color: #f6f6f8;\">Baby doll Buble Feminino com alça regulável, shorts de elástico e cintura alta é uma peça encantadora e delicada que evoca uma sensação de feminilidade e romance, essa peça oferece um visual elegante e sedutor, prefeito para momentos especiais. VOCÊ VAI AMAR!!!</span></span></span></p>\r\n<p style=\"color: #878787; font-family: Poppins; font-size: 18px; background-color: #f6f6f8; box-sizing: inherit; line-height: 20px;\"><br style=\"box-sizing: border-box;\" /><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"><span style=\"box-sizing: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: 600;\">– ESTAMPA: <strong style=\"box-sizing: inherit;\">se a peça for estampada, lembre-se de que</strong></span><strong style=\"box-sizing: inherit;\"><span style=\"box-sizing: border-box; font: inherit; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;\"> </span><u style=\"box-sizing: border-box; font: inherit; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;\">a localização da estampa em cada peça é diferente</u><span style=\"box-sizing: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">, devido à forma como o tecido é cortado,</span><span style=\"box-sizing: border-box; font: inherit; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;\"> </span><u style=\"box-sizing: border-box; font: inherit; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;\">não</u><span style=\"box-sizing: border-box; font: inherit; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;\"> </span><span style=\"box-sizing: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">sendo possível escolher como a estampa estará distribuída em sua peça.</span></strong></span></p>\r\n</div>\r\n<p style=\"box-sizing: border-box; margin-bottom: 1.3em; line-height: inherit; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; font-family: Poppins; vertical-align: baseline; color: #878787; background-color: #f6f6f8;\" data-mce-fragment=\"1\"><span style=\"box-sizing: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: 600;\">SUGESTÃO DE TAMANHOS:</span></p>\r\n<p style=\"box-sizing: border-box; margin-bottom: 1.3em; line-height: inherit; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; font-family: Poppins; vertical-align: baseline; color: #878787; background-color: #f6f6f8;\" data-mce-fragment=\"1\">Se você usa 36 ou 38: sugerimos o tamanho P!<br style=\"box-sizing: border-box;\" data-mce-fragment=\"1\" />Se você usa 40 ou 42: sugerimos o tamanho M!<br style=\"box-sizing: border-box;\" data-mce-fragment=\"1\" />Se você usa 44 : sugerimos o tamanho G!<br style=\"box-sizing: border-box;\" />Se você usa 46: sugerimos o tamanho GG!</p>\r\n<p style=\"box-sizing: border-box; margin-bottom: 1.3em; line-height: inherit; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; font-family: Poppins; vertical-align: baseline; color: #878787; background-color: #f6f6f8;\" data-mce-fragment=\"1\"> <span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;\">MEDIDAS APROXIMADAS:</span></p>\r\n<p style=\"box-sizing: border-box; margin-bottom: 1.3em; line-height: inherit; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; font-family: Poppins; vertical-align: baseline; color: #878787; background-color: #f6f6f8;\" data-mce-fragment=\"1\">P – Quadril: até 100cm / Cintura: até 70cm / Comprimento: 34cm / Cavalo: 26cm / Busto: até 90cm / Comprimento Kimono: 60cm / Top: 23cm<br style=\"box-sizing: border-box;\" data-mce-fragment=\"1\" />M – Quadril: até 105cm / Cintura: até 75cm / Comprimento: 35cm / Cavalo: 28cm / Busto: até 100cm / Comprimento Kimono: 62cm / Top: 25cm<br style=\"box-sizing: border-box;\" />G – Quadril: até 110cm / Cintura: até 80cm / Comprimento: 38cm / Cavalo: 30cm / Busto: até 110cm / Comprimento Kimono: 64cm / Top: 27cm<br style=\"box-sizing: border-box;\" data-mce-fragment=\"1\" />GG – Quadril: até 115cm / Cintura: até 85cm / Comprimento: 40cm / Cavalo: 32cm / Busto: até 120cm / Comprimento Kimono: 66cm / Top: 29cm</p>\r\n<p style=\"box-sizing: border-box; margin-bottom: 1.3em; line-height: inherit; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; font-family: Poppins; vertical-align: baseline; color: #878787; background-color: #f6f6f8;\" data-mce-fragment=\"1\"><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;\">Medidas da Ju:</span><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"> ​Altura: 1.60 cm | Busto: 90 cm | Cintura: 68 cm | Quadril: 100 cm | Manequim: 38/P</span></p>\r\n<p style=\"box-sizing: border-box; margin-bottom: 1.3em; line-height: inherit; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; font-family: Poppins; vertical-align: baseline; color: #878787; background-color: #f6f6f8;\" data-mce-fragment=\"1\"><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;\">ATENÇÃO –<span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"> </span></span><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;\">Cor, encolhimento, instruções de lavagem</span>:<br style=\"box-sizing: border-box;\" data-mce-fragment=\"1\" />– Conforme instrução de lavagem na etiqueta:<span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"> </span><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;\">esta peça pode ser lavada em máquina porém não deve ser usado o modo secagem/secadora. </span>Este tecido por ser delicado, as costuras podem ser danificadas então indicamos que NÃO seja torcio à mão e também por ser estampado/colorido não deixar de molho. Deste forma, sua peça será<span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"> </span><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;\">melhor conservada</span>, bem como a taxa de<span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"> </span><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;\">encolhimento<span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"> </span></span>será menor. =)</p>\r\n<p style=\"box-sizing: border-box; margin-bottom: 1.3em; line-height: inherit; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; font-family: Poppins; vertical-align: baseline; color: #878787; background-color: #f6f6f8;\" data-mce-fragment=\"1\"><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;\">– ENCOLHIMENTO:<span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"> Como trata-se de uma malha</span></span>, após a primeira lavagem, há uma taxa de encolhimento de<span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"> até </span><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;\">10%</span><span data-mce-fragment=\"1\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;\"> </span>da peça (se lavada e secada corretamente). </p>\r\n<p style=\"box-sizing: border-box; margin-bottom: 1.3em; line-height: inherit; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; font-family: Poppins; vertical-align: baseline; color: #878787; background-color: #f6f6f8;\" data-mce-fragment=\"1\">– <strong style=\"box-sizing: inherit;\">COR</strong>: Como são produzidas em estúdio as fotos podem apresentar uma pequena variação de cor por conta do flash e também tem o fator de cada monitor/celular que pode mudar a tonalidade.</p>",
+  "ncm": "6208.22.00",
+  "cest": "28.059.00",
+  "origem": 0
+ }
+}

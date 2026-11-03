@@ -1,0 +1,4 @@
+pillow
+numpy
+rembg[cpu]
+opencv-python-headless<5

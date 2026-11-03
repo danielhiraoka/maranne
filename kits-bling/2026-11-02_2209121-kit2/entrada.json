@@ -1,0 +1,19 @@
+{
+ "base": "2209121",
+ "nome": "KIT - 2 BABY DOLL BUBLE FEMININO",
+ "pecas_por_kit": 2,
+ "preco": 100.0,
+ "situacao": "A",
+ "cores": [
+  "Offwhite",
+  "Preto",
+  "Rosa"
+ ],
+ "tamanhos": [
+  "P",
+  "M",
+  "G",
+  "GG"
+ ],
+ "repetir_cor": false
+}

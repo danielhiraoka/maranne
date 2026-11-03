@@ -1,0 +1,21 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ambiente Python (cada computador cria o seu com .agents/configurar.py)
+.venv/
+__pycache__/
+
+# Atalho criado por .agents/configurar.py (symlink no Mac, junction no Windows)
+.claude/skills
+
+# Configurações pessoais de cada ferramenta
+.claude/settings.local.json
+
+# Segredos
+.env
+*.key
+
+# Cache da skill criar-combos (recortes são refeitos automaticamente)
+_recortes/
