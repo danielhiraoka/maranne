@@ -46,7 +46,7 @@ Quando acontecer um destes, **registrar faz parte da ação**: logo depois de ex
 Sempre com as etiquetas do item (`#sku/`, `#mlb/`, `#loja/`…) para achar depois.
 
 ### Ao encerrar uma tarefa
-Antes de dar a tarefa por concluída: registre no log o que foi feito e **o que ficou pendente** (linha `Pendente: …`), para a próxima conversa — ou outra pessoa — continuar de onde parou. Depois pergunte se pode enviar ao GitHub (`git pull`, commit, `git push`); não envie sem OK.
+Antes de dar a tarefa por concluída: registre no log o que foi feito e **o que ficou pendente** (linha `Pendente: …`), para a próxima conversa — ou outra pessoa — continuar de onde parou. Depois pergunte se pode enviar ao GitHub; com OK: `git add -A`, commit, `git pull --rebase`, `git push` (nessa ordem). Não envie sem OK.
 
 **Data e hora: sempre de São Paulo (UTC−3).** Antes de registrar, rode `python3 .agents/agora.py` (Windows: `py .agents/agora.py`) — ele dá a hora e o arquivo do dia. Nunca estime a hora.
 

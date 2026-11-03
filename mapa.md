@@ -3,7 +3,7 @@
 Índice do que existe nesta pasta. Atualize ao criar uma pasta ou tipo de página novo.
 
 ## Repositório
-- GitHub privado: https://github.com/danielhiraoka/maranne (branch `main`). Antes de trabalhar: `git pull`; depois: commit + `git push`.
+- GitHub privado: https://github.com/danielhiraoka/maranne (branch `main`). Antes de trabalhar: `git pull`; depois: commit, `git pull --rebase`, `git push`.
 
 ## Regras
 - `AGENTS.md` — regras da wiki para qualquer agente (Claude Code, Codex…). `CLAUDE.md` e `.agents/rules/maranne.md` (Antigravity) só apontam para ele.
