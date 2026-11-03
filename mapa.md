@@ -20,6 +20,8 @@
 - Skills ficam em `.agents/skills/` (`.claude/skills` é atalho)
 - Skill `find-skills` (`.agents/skills/find-skills/`, da Vercel) — procura skills prontas no ecossistema (skills.sh) quando pedirem "tem skill para X?"; usa `npx skills` (precisa de Node)
 - Skill `criar-combos` (`.agents/skills/criar-combos/`) — fotos de kits 3:4 para a Bagy a partir das fotos individuais
+- Skill `criar-produto` (`.agents/skills/criar-produto/`) — cadastra produto novo no Bling (título, descrição no modelo, preços, cores × tamanhos, fiscal de produto parecido, GTIN) e organiza as fotos do ensaio no Drive
+- `produtos/<data>_<SKU>/` — entrada, descrição, plano e corpo enviado ao Bling de cada produto novo
 - Skill `criar-kit-bling` (`.agents/skills/criar-kit-bling/`) — cadastra kits no Bling a partir de um SKU com cores × tamanhos (padrão `<base>Kit21P`)
 - `kits-bling/<data>_<base>-kit<N>/` — entrada, plano e corpo enviado ao Bling de cada kit
 - `combos/<data>_<nome>/` — entradas e saídas de cada kit montado

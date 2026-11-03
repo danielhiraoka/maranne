@@ -15,6 +15,7 @@ caminho manual (ex.: pedir o GTIN para a pessoa colar no chat).
 | Emori | análises e ações nos marketplaces (ML, Shopee, TikTok, Amazon) | `https://emori.com.br/mcp` | daniel, aline |
 | Bling | ERP: produtos, kits, estoque, pedidos, NF-e | (conector do Bling) | aline, daniel |
 | Google Sheets | planilha de GTINs livres (Drive da empresa) | conector oficial Google Sheets | aline, daniel |
+| Google Drive | fotos dos ensaios (pasta Maranne(Ensaios)) | conector oficial Google Drive | aline, daniel |
 
 ## Como conectar em cada ferramenta
 
@@ -40,3 +41,18 @@ GTIN e avisa — a pessoa preenche no Bling e marca na planilha à mão.
   usada 3270 → livre a partir da 3271). Há linhas em branco antigas antes disso: não usar.
 - Antes de usar, conferir no Bling se o EAN não está em nenhum produto.
 - Só escrever o SKU na coluna B depois que o produto foi criado no Bling.
+
+## Pasta de ensaios (fotos)
+
+- Google Drive, pasta **Maranne(Ensaios)**, uma subpasta por ano. Link:
+  https://drive.google.com/drive/folders/167Tg5BOFbPIbg8I9NDEJepjR5KNGGu3o
+- Ids das pastas: Maranne(Ensaios) `167Tg5BOFbPIbg8I9NDEJepjR5KNGGu3o` · 2026 `1Z1ImfBRV7AugccY7gSx-hddDLld2gj7w` ·
+  2025 `11VUVFLPwQ8FkC8FRoe_jgU0FREX7RNnD` · 2024 `1YL_1CGIq9BrmIuKmKJO-UsDgedNiadtl` · 2023 `1EPrPw2eHXO2pleqCY2e7ulgWB6G2aS9P`.
+  Ano novo: crie a pasta do ano dentro de Maranne(Ensaios) e anote o id aqui.
+- Acesso **só pelo conector Google Drive** (na nuvem). Não usar o app Google Drive para
+  computador (Mac/Windows): o caminho muda em cada máquina.
+- As fotos de um ensaio ficam numa pasta do Drive que o usuário indica, com uma subpasta
+  por cor (ou a cor no nome do arquivo). O agente copia dentro do próprio Drive.
+- Produto novo: `<ano>/<SKU> - <Nome>/` com `unitario/`, `kit/`, `promocional/`, `video/`.
+  Fotos `cor-01.jpg` (a 01 é a capa); fotos de kit com o código da variação (`Kit21.jpg`).
+  Pastas antigas por data de ensaio continuam como estão.

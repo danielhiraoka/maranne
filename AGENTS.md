@@ -27,7 +27,26 @@ Equipe e responsabilidades: `pessoas.md` — use os apelidos de lá no log e par
 3. Para o resto: `grep` pela etiqueta em `log/` (nunca ler pastas inteiras).
 
 ## Como registrar
-Registre sempre que algo for **alterado** (preço, status, promoção, cadastro, kit, foto) ou uma **análise/decisão** relevante for feita — via MCP ou não. Consultas triviais não precisam.
+Registre sempre que algo for **alterado** ou uma **análise/decisão** relevante for feita — via MCP, à mão ou contado pelo usuário ("subi a promoção ontem"). Consultas triviais não precisam.
+
+### Marcos — registro obrigatório, na hora
+Quando acontecer um destes, **registrar faz parte da ação**: logo depois de executar (ou de o usuário contar), antes de seguir para outra coisa. Na resposta, diga "registrado no log".
+
+| Marco | Etiqueta | O que registrar |
+|---|---|---|
+| Cadastro de produto ou kit | `#tema/cadastro` | SKU pai, nº de variações, preço, ids, o que ficou pendente |
+| Alteração de cadastro (título, descrição, fotos, fiscal, GTIN) | `#tema/cadastro` | campo, antes → depois |
+| **Preço** | `#tema/precos` | SKU/anúncio, loja, antes → depois, margem se houver, motivo, quem aprovou |
+| **Promoção / cupom / desconto** (entrar, sair, criar) | `#tema/promocoes` | promoção, SKUs/anúncios, %/preço, período, loja |
+| **Ads / tráfego pago** (campanha criada, orçamento, pausa, ACOS/ROAS alvo) | `#tema/ads` | campanha, plataforma, antes → depois, motivo |
+| Status de anúncio (ativar, pausar, inativar) | `#tema/anuncios` | anúncio/SKU, loja, motivo |
+| Estoque / reposição / produção | `#tema/estoque` | SKU, quantidade, decisão |
+| Decisão de negócio ou regra nova | `#tema/<assunto>` | decisão e o porquê |
+
+Sempre com as etiquetas do item (`#sku/`, `#mlb/`, `#loja/`…) para achar depois.
+
+### Ao encerrar uma tarefa
+Antes de dar a tarefa por concluída: registre no log o que foi feito e **o que ficou pendente** (linha `Pendente: …`), para a próxima conversa — ou outra pessoa — continuar de onde parou. Depois pergunte se pode enviar ao GitHub (`git pull`, commit, `git push`); não envie sem OK.
 
 **Data e hora: sempre de São Paulo (UTC−3).** Antes de registrar, rode `python3 .agents/agora.py` (Windows: `py .agents/agora.py`) — ele dá a hora e o arquivo do dia. Nunca estime a hora.
 
