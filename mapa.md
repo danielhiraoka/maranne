@@ -13,6 +13,7 @@
 - `.gitignore` / `.gitattributes` — o que não vai para o GitHub e fim de linha igual nos dois sistemas
 
 ## Wiki
+- `guias/descricao-produto.md` — padrão de títulos, descrições, medidas, tecidos e kits (usado pelas skills de cadastro)
 - `pessoas.md` — sócios, equipe, quem cuida de quê, contatos externos
 - `log/AAAA/MM/` — diário de ações, análises e decisões (buscar por etiqueta)
 

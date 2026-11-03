@@ -39,7 +39,7 @@ from pathlib import Path
 
 CAMPOS_COPIADOS = ("categoria", "marca", "unidade", "pesoBruto", "pesoLiquido", "dimensoes",
                    "camposCustomizados", "descricaoCurta")
-MARCADORES_DESCRICAO = ("ESTAMPA", "SUGESTÃO DE TAMANHOS", "MEDIDAS", "ATENÇÃO")
+MARCADORES_DESCRICAO = ("DETALHES DO TECIDO", "ESTAMPA", "SUGESTÃO DE TAMANHOS", "MEDIDAS", "ATENÇÃO")
 
 
 def ler_origem(caminho):
@@ -80,7 +80,8 @@ def bloco_composicao(n, combos):
     for i, combo in enumerate(combos, start=1):
         itens = ", ".join(f"{q}x {cor}" for cor, q in Counter(combo).items())
         linhas.append(f"Kit{n}{i}: {itens}")
-    return "<p><strong>COMPOSIÇÃO DO KIT:</strong><br />" + "<br />".join(linhas) + "</p>\n"
+    return ("<p><strong>COMPOSIÇÃO DO KIT:</strong><br />" + "<br />".join(linhas)
+            + "<br />*Todas as peças são da mesma numeração.</p>\n")
 
 
 class _Limpador(HTMLParser):
@@ -134,12 +135,23 @@ def limpar_html(html):
 
 
 def inserir_composicao(html, bloco):
-    """Põe o bloco antes da primeira seção técnica (ESTAMPA, MEDIDAS...); se não achar, no fim."""
+    """Põe o bloco antes da primeira seção técnica (DETALHES DO TECIDO, ESTAMPA, MEDIDAS...); se não achar, no fim."""
     posicoes = [html.find(m) for m in MARCADORES_DESCRICAO if m in html]
     if not posicoes:
         return html + bloco
-    corte = html.rfind("<p", 0, min(posicoes))
-    return html + bloco if corte < 0 else html[:corte] + bloco + html[corte:]
+    # recua sobre o que abre a seção ("– ", <strong>, <br />, espaços) até o início dela
+    inicio = min(posicoes)
+    while True:
+        m = re.search(r"(\s|–|-|<strong>|<b>|<br\s*/?>)$", html[:inicio])
+        if not m:
+            break
+        inicio = m.start()
+    antes = html[:inicio]
+    if re.search(r"<p>\s*$", antes):  # a seção começa um parágrafo: entra antes dele
+        corte = antes.rstrip().rfind("<p>")
+        return html[:corte] + bloco + html[corte:]
+    # a seção está no meio de um parágrafo: fecha o parágrafo, põe o bloco e reabre
+    return antes + "</p>\n" + bloco + "<p>" + html[inicio:]
 
 
 def planejar(cfg, pecas, copiar):

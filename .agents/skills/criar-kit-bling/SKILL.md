@@ -22,7 +22,7 @@ Igual ao kit que já existe `19312PlusSizeKit2` (KIT - 2 CAMISETAS PLUS SIZE):
 | Nome da variação | `Cor:Kit<N><combo>;Tamanho:<tam>` | `Cor:Kit22;Tamanho:P` |
 | Composição | as cores da combinação, no mesmo tamanho | 1x Offwhite P + 1x Preto P |
 | Estoque | virtual (calculado pelas peças) | menor saldo ÷ quantidade |
-| Descrição | a da peça unitária + bloco **COMPOSIÇÃO DO KIT** antes de ESTAMPA/MEDIDAS | `Kit22: 1x Offwhite, 1x Preto` |
+| Descrição | a da peça unitária + bloco **COMPOSIÇÃO DO KIT** antes de DETALHES DO TECIDO (guia: `guias/descricao-produto.md` §4) | `Kit22: 1x Offwhite, 1x Preto` |
 
 `combo` numera as combinações na ordem das cores informadas.
 

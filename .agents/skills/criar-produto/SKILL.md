@@ -23,10 +23,12 @@ decide o nome de cada foto, que é copiada no próprio Google Drive.
 
 1. **SKU** — confira já no início: `listProducts` com `codigos: ["<SKU>"]`,
    `criterio: "5"`, `fields: ["id","codigo"]`. Se existir, pare e avise.
-2. **Título** — proponha 2–3 opções (até 120 caracteres; produto + modelo +
-   detalhe + "Feminino/Feminina"), debata e use o aprovado.
-3. **Descrição** — a partir do que o usuário mandar (fotos, tecido, medidas,
-   referências), preencha `modelo-descricao.html` desta pasta. Mostre o
+2. **Título** — proponha 2–3 opções no padrão do guia (`{Tipo} Feminina {modelo}
+   de {Tecido} com {Detalhe}`, até 120 caracteres, essencial nos 60 primeiros),
+   debata e use o aprovado.
+3. **Descrição** — siga `guias/descricao-produto.md` (padrão 2026: seções, tom,
+   palavras, tecidos, medidas) e preencha `modelo-descricao.html` desta pasta,
+   a partir do que o usuário mandar (fotos, tecido, medidas, referências). Mostre o
    texto para aprovação. Não invente medidas nem composição de tecido: pergunte.
 4. **Preço de venda e preço de custo** — sempre do usuário (venda é aprovada
    pelo daniel, `pessoas.md`). Pergunte também o **fornecedor**.
