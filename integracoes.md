@@ -14,6 +14,7 @@ caminho manual (ex.: pedir o GTIN para a pessoa colar no chat).
 |---|---|---|---|
 | Emori | análises e ações nos marketplaces (ML, Shopee, TikTok, Amazon) | `https://emori.com.br/mcp` | daniel, aline |
 | Bling | ERP: produtos, kits, estoque, pedidos, NF-e | (conector do Bling) | aline, daniel |
+| NFE DAH | vínculos produto↔loja e anúncios no Bling (skill `vincular-amazon-bling`) | (conector NFE DAH) | daniel |
 | Google Sheets | planilha de GTINs livres (Drive da empresa) | conector oficial Google Sheets | aline, daniel |
 | Google Drive | fotos dos ensaios (pasta Maranne(Ensaios)) | conector oficial Google Drive | aline, daniel |
 

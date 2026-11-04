@@ -25,6 +25,7 @@
 - Skill `criar-produto` (`.agents/skills/criar-produto/`) — cadastra produto novo no Bling (título, descrição no modelo, preços, cores × tamanhos, fiscal de produto parecido, GTIN) e organiza as fotos do ensaio no Drive
 - `produtos/<data>_<SKU>/` — entrada, descrição, plano e corpo enviado ao Bling de cada produto novo
 - Skill `criar-kit-bling` (`.agents/skills/criar-kit-bling/`) — cadastra kits no Bling a partir de um SKU com cores × tamanhos (padrão `<base>Kit21P`)
+- Skill `vincular-amazon-bling` (`.agents/skills/vincular-amazon-bling/`) — vincula no Bling as variações de um anúncio novo da Amazon (código = SKU, pai sem vínculo)
 - `kits-bling/<data>_<base>-kit<N>/` — entrada, plano e corpo enviado ao Bling de cada kit
 - `combos/<data>_<nome>/` — entradas e saídas de cada kit montado
 - `entrada/`, `saida/`, `referencia/` — arquivos soltos da skill de kits (referência de layout)
@@ -33,3 +34,4 @@
 Detalhes, quem precisa e como conectar em cada ferramenta: `integracoes.md`.
 - **Emori** — análises e ações nos marketplaces (ML, Shopee, TikTok, Amazon)
 - **Bling** (ERP) — produtos, variações, kits (composição), estoque, pedidos, NF-e. Não publica nos canais: isso é feito no Bling ou via Emori
+- **NFE DAH** — ponte marketplaces ↔ Bling: vínculos produto↔loja e anúncios
