@@ -16,7 +16,7 @@ Loja Amazon no Bling. É esse vínculo que faz o Bling mandar o estoque ao anún
 | Loja | **Loja Amazon**, `idLoja` `205660849` |
 | Produto pai | **sem vínculo** |
 | Cada variação | 1 vínculo, com `idProduto` da variação e `codigo` = **SKU da variação** |
-| Preço | o preço atual do produto, em `preco` e `precoPromocional` |
+| Preço | o preço do anúncio, em `preco` e `precoPromocional`. Se o preço no Bling for diferente do anúncio de origem, pergunte ao usuário qual usar |
 
 Exemplo: variação `25343UnPretoP` (id `16448965267`) → `codigo` `25343UnPretoP`.
 
@@ -40,14 +40,15 @@ Se faltar alguma, siga `integracoes.md`: avise qual falta e não improvise.
 
 ## Passo a passo
 
-1. **Achar os SKUs (Emori).** Com o MLB, `get_item_info` dá o SKU pai. Com o SKU pai,
+1. **Achar os SKUs (Emori).** Com o id do anúncio de origem (MLB ou id da Shopee),
+   `get_item_info` dá o SKU pai e o preço. Com o SKU pai,
    `get_items_by_sku` lista as variações. Se a resposta trouxer vários anúncios, use as
    variações do anúncio de origem.
 2. **Procurar o anúncio da Amazon (Emori).** Veja se `get_items_by_sku` já traz um item
    com `marketplace` Amazon. Se trouxer, compare os SKUs dele com os do passo 1. Clone
    recente pode ainda não aparecer: nesse caso, avise que os SKUs não foram confirmados.
 3. **Achar os ids (Bling).** `listProducts` com `codigos` (pai e variações), `criterio: "5"`
-   e `fields` `id`, `codigo`, `nome`, `situacao`, `idProdutoPai`. Confira que todos existem,
+   e `fields` `id`, `codigo`, `nome`, `situacao`, `idProdutoPai`, `preco`. Confira que todos existem,
    estão ativos e têm o mesmo pai. Se faltar algum, pare e mostre.
 4. **Conferir vínculos existentes (NFE DAH).** `consultar_vinculos` com `id_empresa` e `sku`
    do pai e de cada variação. Essa consulta usa um espelho local; para ver o dado direto do
