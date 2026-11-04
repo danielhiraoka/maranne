@@ -16,7 +16,7 @@ Loja Amazon no Bling. É esse vínculo que faz o Bling mandar o estoque ao anún
 | Loja | **Loja Amazon**, `idLoja` `205660849` |
 | Produto pai | **sem vínculo** |
 | Cada variação | 1 vínculo, com `idProduto` da variação e `codigo` = **SKU da variação** |
-| Preço | o preço do anúncio, em `preco` e `precoPromocional`. Se o preço no Bling for diferente do anúncio de origem, pergunte ao usuário qual usar |
+| Preço | o preço do anúncio **na Amazon**, em `preco` e `precoPromocional`. Se ele ainda não aparecer na Emori, ou se divergir do Bling, pergunte ao usuário qual usar. O preço do anúncio de origem pode não ser o da Amazon (no 2605084: Shopee R$ 44,90, Amazon R$ 39,90) |
 
 Exemplo: variação `25343UnPretoP` (id `16448965267`) → `codigo` `25343UnPretoP`.
 
@@ -44,9 +44,11 @@ Se faltar alguma, siga `integracoes.md`: avise qual falta e não improvise.
    `get_item_info` dá o SKU pai e o preço. Com o SKU pai,
    `get_items_by_sku` lista as variações. Se a resposta trouxer vários anúncios, use as
    variações do anúncio de origem.
-2. **Procurar o anúncio da Amazon (Emori).** Veja se `get_items_by_sku` já traz um item
-   com `marketplace` Amazon. Se trouxer, compare os SKUs dele com os do passo 1. Clone
-   recente pode ainda não aparecer: nesse caso, avise que os SKUs não foram confirmados.
+2. **Procurar o anúncio da Amazon (Emori).** Use `get_items_by_sku` com o SKU de uma
+   **variação**, não o do pai: a busca pelo pai para em 50 resultados e pode esconder o
+   item da Amazon. Se vier item com `marketplace` Amazon, compare o SKU, anote o preço
+   (`preco_venda` da variação) e o status. Clone recente pode ainda não aparecer: nesse
+   caso, avise que SKU e preço não foram confirmados.
 3. **Achar os ids (Bling).** `listProducts` com `codigos` (pai e variações), `criterio: "5"`
    e `fields` `id`, `codigo`, `nome`, `situacao`, `idProdutoPai`, `preco`. Confira que todos existem,
    estão ativos e têm o mesmo pai. Se faltar algum, pare e mostre.
@@ -74,3 +76,8 @@ Se faltar alguma, siga `integracoes.md`: avise qual falta e não improvise.
 Quando o anúncio aparecer na Emori, confira se os SKUs da Amazon são iguais aos do Bling.
 Se algum for diferente, o vínculo daquela variação fica com o código errado e o estoque
 não chega nela.
+
+Confira também, com `get_item_info` no ASIN do pai (vem em `variacoes` do resultado de
+`get_items_by_sku`): `n_variacoes` deve ser igual ao nº de vínculos criados, e o preço
+igual ao do vínculo. Depois veja se o estoque chegou e se as variações saíram de
+`paused`/`inactive`. Se o anúncio apareceu antes de gravar, faça essa conferência antes.
