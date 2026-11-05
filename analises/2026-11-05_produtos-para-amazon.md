@@ -59,3 +59,8 @@ Pontos de atenção:
 1. Reativar e vincular os kits 2007113 antes de clonar, ou em paralelo?
 2. Por que a Amazon vende tão pouco? Sem Ads, sem FBA e preço igual aos outros canais são hipóteses a conferir; nada disso foi medido aqui.
 3. Quanto subir agora: só a Pantalona como teste, ou os cinco?
+
+## Atualização das 10:57: conferências antes de executar
+
+- **Kits com categoria errada:** `2007113Kit6ViscoseGG` e `2007113Kit29GG` estão como `ANTENNA`, com taxa de 28,76% na Emori e margem de 2,27% e 8,87%. `2007113Kit32GG` está como `SHIRT`, com 15% e 24,62%. Foi conferida uma variação por kit. Reativar os dois primeiros sem corrigir pode dar pouca margem.
+- **Pantalona:** a origem `MLB3999624839` só leva Preto e Marrom (8 de 20 variações do Bling). A prévia sugere R$ 59,91, com custo R$ 25 (as variações têm R$ 21). A margem de ~35% da tabela vale a R$ 69,90 e custo R$ 21; não foi simulada.

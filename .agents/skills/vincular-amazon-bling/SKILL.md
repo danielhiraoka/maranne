@@ -58,15 +58,16 @@ Se faltar alguma, siga `integracoes.md`: avise qual falta e não improvise.
    na Loja Amazon fica fora do lote. Mostre ao usuário.
 5. **Pedir o OK.** Mostre a tabela SKU × id Bling, o preço e o aviso do passo 2, se houver.
    Só continue com a aprovação do usuário.
-6. **Criar os vínculos (NFE DAH).** `vincular_produto_loja` funciona em duas chamadas por
-   variação:
-   - 1ª, sem `confirmar`: devolve a prévia e um `token_confirmacao`. Nada é gravado.
-   - 2ª, com os mesmos argumentos, `confirmar: true` e o token. O token vale só para aquela
-     variação.
+6. **Criar os vínculos (NFE DAH).** Prefira `vincular_produtos_loja_lote` (até 50 itens por
+   chamada, com `idLoja` e `id_empresa`; cada item tem `idProduto`, `codigo`, `preco` e
+   `precoPromocional`). Não inclua o pai. Funciona em duas chamadas:
+   - 1ª, sem `confirmar`: devolve a prévia, com preços de referência e itens pulados, e um
+     `token_confirmacao`. Nada é gravado.
+   - 2ª, com os mesmos argumentos, `confirmar: true` e o token.
 
-   Com o OK do passo 5, faça as prévias de todas, confira que batem com o aprovado e grave.
-   Se uma variação falhar, ou se a ferramenta devolver um vínculo que já existe, não force:
-   grave as outras e relate. Para corrigir um vínculo, use `atualizar_vinculo_produto_loja`.
+   Com o OK do passo 5, confira que a prévia bate com o aprovado e grave. Item pulado ou com
+   falha não se força: relate. Para corrigir preço de vários vínculos, use
+   `atualizar_precos_vinculos`; para outro campo, `atualizar_vinculo_produto_loja`.
 7. **Registrar no log**, conforme o `AGENTS.md`, com `#tema/cadastro` `#tema/anuncios`
    `#loja/amazon` `#sku/<pai>`, a conta, o nº de variações e o preço. Se os SKUs não foram
    confirmados no passo 2, anote em `Pendente:`.
