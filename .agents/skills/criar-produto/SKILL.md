@@ -51,11 +51,11 @@ primeiros livres depois da última linha com SKU, conferir no Bling, um por
 variação. Detalhes e id da planilha em `integracoes.md`.
 
 ### 3. Planejar
-Pasta de trabalho `produtos/<AAAA-MM-DD>_<SKU>/` com `entrada.json` (formato
+Pasta de trabalho `cadastros/<AAAA-MM-DD>_<SKU>/` com `entrada.json` (formato
 no topo do script) e `descricao.html`. Rode numa linha:
 
 ```
-<python> .agents/skills/criar-produto/scripts/planejar_produto.py produtos/<pasta>/entrada.json --saida produtos/<pasta> --referencia <arquivo do getProduct>
+<python> .agents/skills/criar-produto/scripts/planejar_produto.py cadastros/<pasta>/entrada.json --saida cadastros/<pasta> --referencia <arquivo do getProduct>
 ```
 
 `<python>`: `.venv/bin/python` (Mac) ou `.venv\Scripts\python.exe` (Windows).
@@ -83,13 +83,13 @@ abre as imagens**.
 1. Liste a pasta e as subpastas com o conector do Drive: `search_files` com
    `query: "parentId = '<id da pasta>'"`, `excludeContentSnippets: true`,
    `pageSize: 100` (o id está no link: `.../folders/<id>`). Repita para cada
-   subpasta. Salve só o essencial em `produtos/<pasta>/listagem.json`:
+   subpasta. Salve só o essencial em `cadastros/<pasta>/listagem.json`:
    `[{"id","nome","pasta"}]` (`pasta` = nome da subpasta, ou `""` se solta).
    A cor também é reconhecida em inglês no nome (black, white, pink…), comum
    em fotos geradas por IA.
 2. Rode, numa linha:
    ```
-   <python> .agents/skills/criar-produto/scripts/planejar_fotos.py produtos/<pasta>/listagem.json --cores <cores do produto> --saida produtos/<pasta>
+   <python> .agents/skills/criar-produto/scripts/planejar_fotos.py cadastros/<pasta>/listagem.json --cores <cores do produto> --saida cadastros/<pasta>
    ```
    Fotos sem cor reconhecida: pergunte a cor; não chute nem abra a foto.
 3. Mostre o resumo por cor e peça OK.

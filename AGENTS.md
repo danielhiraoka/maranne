@@ -22,9 +22,10 @@ Este sistema é usado por Claude Code, Codex, Antigravity e outros agentes. Para
 Equipe e responsabilidades: `pessoas.md` — use os apelidos de lá no log e para direcionar tarefas.
 
 ## Como consultar (economizar tokens)
-1. Comece pelo `mapa.md` (índice curto).
-2. Para SKU/anúncio/loja: abra a página da entidade, se existir — ela tem a linha do tempo.
-3. Para o resto: `grep` pela etiqueta em `log/` (nunca ler pastas inteiras).
+1. Comece pelo `mapa.md` (índice curto) e pelo `pendencias.md` (o que está em aberto). Se o pedido do usuário toca numa pendência, diga isso a ele.
+2. Antes de propor ou executar preço, promoção, ads ou anúncio na Amazon: leia `regras-comerciais.md`.
+3. Para SKU/anúncio/loja/tema: `python3 .agents/indice.py <etiqueta>` (ex.: `sku/2605084`, `loja/amazon`) dá a linha do tempo no log; com `-c`, o texto completo. Sem argumentos, lista as etiquetas. Windows: `py .agents/indice.py`.
+4. Nunca ler pastas inteiras.
 
 ## Como registrar
 Registre sempre que algo for **alterado** ou uma **análise/decisão** relevante for feita — via MCP, à mão ou contado pelo usuário ("subi a promoção ontem"). Consultas triviais não precisam.
@@ -46,7 +47,13 @@ Quando acontecer um destes, **registrar faz parte da ação**: logo depois de ex
 Sempre com as etiquetas do item (`#sku/`, `#mlb/`, `#loja/`…) para achar depois.
 
 ### Ao encerrar uma tarefa
-Antes de dar a tarefa por concluída: registre no log o que foi feito e **o que ficou pendente** (linha `Pendente: …`), para a próxima conversa — ou outra pessoa — continuar de onde parou. Depois pergunte se pode enviar ao GitHub; com OK: `git add -A`, commit, `git pull --rebase`, `git push` (nessa ordem). Não envie sem OK.
+Antes de dar a tarefa por concluída:
+1. Registre no log o que foi feito.
+2. Atualize o `pendencias.md`: **apague** o que foi resolvido e **acrescente** o que ficou em aberto (uma linha: data · quem · o que falta → log de origem; com prazo, na seção "Com data"). É por ele que a próxima conversa — ou outra pessoa — continua. Não escreva mais linha `Pendente:` no log.
+3. Nada do que é preciso para continuar pode ficar em arquivo temporário da conversa (scratchpad): salve nesta pasta (`cadastros/`, `precos/`, `analises/`).
+4. Se nasceu ou mudou uma regra de preço, promoção, ads ou Amazon, atualize `regras-comerciais.md`.
+
+Depois pergunte se pode enviar ao GitHub; com OK: `git add -A`, commit, `git pull --rebase`, `git push` (nessa ordem). Não envie sem OK.
 
 **Data e hora: sempre de São Paulo (UTC−3).** Antes de registrar, rode `python3 .agents/agora.py` (Windows: `py .agents/agora.py`) — ele dá a hora e o arquivo do dia. Nunca estime a hora.
 
@@ -62,7 +69,9 @@ Antes de dar a tarefa por concluída: registre no log o que foi feito e **o que 
 `#sku/<SKU>` · `#mlb/<MLB...>` · `#shopee/<item_id>` · `#tiktok/<id>` · `#amazon/<ASIN>` · `#loja/<apelido>` · `#tema/<assunto>`
 Apelidos de loja: `ml-lilih`, `ml-lilih2`, `shopee-maranne`, `tiktok-maranne`, `amazon`, `site-bagy`.
 
-**Páginas de entidade** (SKU, anúncio, loja, fornecedor, tema…): crie quando a entidade aparecer pela 2ª vez ou tiver algo que valha guardar. Ao registrar no log, acrescente uma linha na `## Linha do tempo` da página (data · pessoa · resumo → link do log). Se a linha do tempo passar de ~50 linhas, mova as antigas para `historico-AAAA.md` ao lado e deixe um resumo.
+**Linha do tempo de uma entidade** (SKU, anúncio, loja): não se escreve à mão — sai do log pelas etiquetas, com `.agents/indice.py`. Por isso as etiquetas do item são obrigatórias em toda entrada.
+
+**Páginas de entidade** (loja, fornecedor, produto…): crie só quando houver um **resumo que valha guardar** e que o log não dá de pronto (ex.: particularidades de uma loja, histórico de um fornecedor). A página guarda o estado atual, não a linha do tempo.
 
 Ao criar uma pasta ou tipo de página novo, adicione uma linha no `mapa.md`.
 

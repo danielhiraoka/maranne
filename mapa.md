@@ -12,6 +12,11 @@
 - `.agents/configurar.py` — prepara um computador novo (Mac ou Windows): atalho de skills + `.venv`
 - `.gitignore` / `.gitattributes` — o que não vai para o GitHub e fim de linha igual nos dois sistemas
 
+## Comece por aqui
+- `pendencias.md` — lista única do que está em aberto, com prazos e descontos ativos (ler no começo; dar baixa ao resolver)
+- `regras-comerciais.md` — decisões em vigor de preço, promoção, ads e Amazon (ler antes de agir nesses temas)
+- `.agents/indice.py` — linha do tempo de um SKU, anúncio, loja ou tema a partir das etiquetas do log (`python3 .agents/indice.py sku/2605084`)
+
 ## Wiki
 - `guias/descricao-produto.md` — padrão de títulos, descrições, medidas, tecidos e kits (usado pelas skills de cadastro)
 - `pessoas.md` — sócios, equipe, quem cuida de quê, contatos externos
@@ -24,12 +29,12 @@
 - Skill `find-skills` (`.agents/skills/find-skills/`, da Vercel) — procura skills prontas no ecossistema (skills.sh) quando pedirem "tem skill para X?"; usa `npx skills` (precisa de Node)
 - Skill `criar-combos` (`.agents/skills/criar-combos/`) — fotos de kits 3:4 para a Bagy a partir das fotos individuais
 - Skill `criar-produto` (`.agents/skills/criar-produto/`) — cadastra produto novo no Bling (título, descrição no modelo, preços, cores × tamanhos, fiscal de produto parecido, GTIN) e organiza as fotos do ensaio no Drive
-- `produtos/<data>_<SKU>/` — entrada, descrição, plano e corpo enviado ao Bling de cada produto novo
 - Skill `criar-kit-bling` (`.agents/skills/criar-kit-bling/`) — cadastra kits no Bling a partir de um SKU com cores × tamanhos (padrão `<base>Kit21P`)
 - Skill `vincular-amazon-bling` (`.agents/skills/vincular-amazon-bling/`) — vincula no Bling as variações de um anúncio novo da Amazon (código = SKU, pai sem vínculo)
-- `kits-bling/<data>_<base>-kit<N>/` — entrada, plano e corpo enviado ao Bling de cada kit
-- `combos/<data>_<nome>/` — entradas e saídas de cada kit montado
-- `entrada/`, `saida/`, `referencia/` — arquivos soltos da skill de kits (referência de layout)
+
+## Arquivos de trabalho das skills
+- `cadastros/<data>_<SKU>/` — entrada, descrição, plano e corpo enviado ao Bling de cada produto novo (`criar-produto`) e de cada kit (`criar-kit-bling`, pasta `<data>_<base>-kit<N>`). Até 11/11/2026 eram `produtos/` e `kits-bling/`; o log antigo cita esses nomes
+- `combos/<data>_<nome>/` — fotos de entrada e de saída de cada kit montado (`criar-combos`); as fotos de referência de layout ficam em `.agents/skills/criar-combos/referencia/`
 
 ## Integrações (MCP)
 Detalhes, quem precisa e como conectar em cada ferramenta: `integracoes.md`.

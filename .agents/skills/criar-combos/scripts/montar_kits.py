@@ -22,7 +22,7 @@ from rembg import new_session, remove
 
 EXTENSOES = {".jpg", ".jpeg", ".png", ".webp"}
 
-# Regras por tamanho de kit, medidas nos kits de referência (pasta referencia/):
+# Regras por tamanho de kit, medidas nos kits de referência (pasta referencia/ desta skill):
 #   centros: centro do rosto de cada posição (fração da largura)
 #   profundidade: 0 = mais à frente; quem tem o mesmo valor, o da direita cobre
 #   rosto: lado do rosto da modelo da frente (fração da ALTURA da tela)

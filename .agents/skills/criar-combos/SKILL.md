@@ -6,7 +6,7 @@ description: Monta fotos de combos/kits de roupas da Maranne a partir de fotos i
 # Criar combos
 
 Transforma fotos individuais de peças em fotos de kit: as modelos ficam
-recortadas e sobrepostas, como nas fotos de referência em `referencia/`.
+recortadas e sobrepostas, como nas fotos de referência em `.agents/skills/criar-combos/referencia/`.
 Toda a parte pesada (recorte, alinhamento, layout) está no script
 `scripts/montar_kits.py`. Seu trabalho é organizar as fotos, rodar o script e
 mostrar o resultado.
@@ -123,7 +123,7 @@ em vez de só entregar.
 
 Os layouts (posição de cada modelo, quem fica na frente, tamanho do rosto)
 estão no dicionário `LAYOUTS` do script, medidos nas referências em
-`referencia/`. Se o usuário mandar uma referência nova de kit, meça os rostos
+`.agents/skills/criar-combos/referencia/`. Se o usuário mandar uma referência nova de kit, meça os rostos
 dela (o script tem o detector de rosto) e ajuste o layout daquele tamanho.
 
 ## Limitação conhecida: enquadramento das fotos

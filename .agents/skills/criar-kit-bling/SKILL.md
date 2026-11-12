@@ -55,11 +55,11 @@ Rosa → Kit21 Offwhite+Preto, Kit22 Offwhite+Rosa, Kit23 Preto+Rosa. Só use
   com `listProducts` (fields enxutos) — veja o formato no topo do script.
 
 ### 2. Planejar
-Pasta de trabalho: `kits-bling/<AAAA-MM-DD>_<base>-kit<N>/`. Escreva
+Pasta de trabalho: `cadastros/<AAAA-MM-DD>_<base>-kit<N>/`. Escreva
 `entrada.json` (formato no topo do script) e rode, numa linha:
 
 ```
-<python> .agents/skills/criar-kit-bling/scripts/planejar_kit.py kits-bling/<pasta>/entrada.json --saida kits-bling/<pasta> --origem <arquivo do getProduct>
+<python> .agents/skills/criar-kit-bling/scripts/planejar_kit.py cadastros/<pasta>/entrada.json --saida cadastros/<pasta> --origem <arquivo do getProduct>
 ```
 
 `<python>`: `.venv/bin/python` (Mac) ou `.venv\Scripts\python.exe` (Windows).

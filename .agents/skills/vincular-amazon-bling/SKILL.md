@@ -70,7 +70,7 @@ Se faltar alguma, siga `integracoes.md`: avise qual falta e não improvise.
    `atualizar_precos_vinculos`; para outro campo, `atualizar_vinculo_produto_loja`.
 7. **Registrar no log**, conforme o `AGENTS.md`, com `#tema/cadastro` `#tema/anuncios`
    `#loja/amazon` `#sku/<pai>`, a conta, o nº de variações e o preço. Se os SKUs não foram
-   confirmados no passo 2, anote em `Pendente:`.
+   confirmados no passo 2, anote em `pendencias.md`.
 
 ## Depois de vincular
 
