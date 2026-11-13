@@ -11,8 +11,6 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 
 ## Com data
 
-- 2026-11-12 · daniel · Conferir se os anúncios entraram na Black Friday 2026 do ML (12/11 a 01/12): tule gola alta, Kit 2 Lilih, Combo 3, camiseta gola V, 2605084 (unitária e Kit 2, duas contas) e os 5 do segundo escalão → log 2026-11-04 20:13
-- 2026-11-12 · daniel · Ler o resultado das promoções de 03 e 04/11 (estava marcado para 10–11/11), comparando com os dias 5–8 dos meses anteriores; decidir Pantalona e Tule segunda pele → log 2026-11-06 15:09 e 15:21
 - 2026-12-01 · daniel · Acaba a Moda Nov26 no ML (Pantalona 64,00; Kit 3 68,00; Kit 5 119,90; Tule segunda pele 30,00) e a Black Friday 2026: decidir o que vem depois → log 2026-11-03 12:47
 - 2026-12-03 · daniel · Acaba o desconto "11.11 Kits Maranne" da Shopee (id 521834793742377); decidir se termina antes → log 2026-11-03 12:47 e 2026-11-04 20:13
 
@@ -31,7 +29,11 @@ Para voltar, use o CSV de `precos/`.
 - 2026-11-03 · daniel · Shopee: pausar as 6 campanhas sem venda e decidir a campanha de grupo (só pelo painel) → log 2026-11-03 12:14 e 2026-11-06 15:09
 - 2026-11-03 · daniel · 2605084 no ML: avaliar Ads; tentar de novo Premium → Clássico na lilih → log 2026-11-03 20:20
 - 2026-11-04 · daniel · Conferir no painel da Shopee se as 34 variações estão a 65,16 e 34,71 (a Emori contava 33) → log 2026-11-04 20:13
-- 2026-11-04 · daniel · TikTok: conferir preço, estoque e GMV Max; olhar a queda de R$ 102 para R$ 40 por dia → log 2026-11-04 18:44 e 2026-11-06 15:09
+- 2026-11-04 · daniel · TikTok: conferir preço, estoque e GMV Max (a queda de 06/11 passou: R$ 123/dia em 03–12/11) → log 2026-11-04 18:44 e 2026-11-13 12:17
+- 2026-11-13 · daniel · Pantalona Lilih MLB3999624839 e Tule segunda pele Lilih2 MLB3286413799: decidir saída da Moda Nov26 (desconto sem volume; tule com 10%) → log 2026-11-13 12:17
+- 2026-11-13 · daniel · Shopee com margem de 6,3%: rever preço/desconto da camiseta unitária 16988614733 (4,5%) e da manga 3/4 22398414406, 23993890380, 21798103088 (−0,5% a 4%); conferir no Seller Center por que a taxa subiu de 29% para 33% → log 2026-11-13 12:17
+- 2026-11-13 · daniel · Lilih2 abaixo de 15%: Combo 5 MLB3272093035 (12,7%) e Kit 2 MLB3375267590 (12,9%) → log 2026-11-13 12:17
+- 2026-11-13 · daniel · Estoque: repor a Pantacourt Shopee 3969027920 (zerada); conferir no Bling a Pantalona 25128 (44 un na Lilih, ~28 dias) → log 2026-11-13 12:17
 - 2026-11-03 · juliana · Conferir a alíquota de imposto por loja na Emori → log 2026-11-03 11:38
 - 2026-11-03 · aline · Conferir o CMV de 25343 e 25764 na Emori → log 2026-11-03 11:38
 - 2026-11-06 · daniel · Informar promoções e mudanças de Ads de junho a outubro, se houver registro → log 2026-11-06 15:21
