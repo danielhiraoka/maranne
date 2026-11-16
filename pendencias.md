@@ -14,15 +14,9 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 - 2026-12-01 · daniel · Acaba a Moda Nov26 no ML (Pantalona 64,00; Kit 3 68,00; Kit 5 119,90; Tule segunda pele 30,00) e a Black Friday 2026: decidir o que vem depois → log 2026-11-03 12:47
 - 2026-12-03 · daniel · Acaba o desconto "11.11 Kits Maranne" da Shopee (id 521834793742377); decidir se termina antes → log 2026-11-03 12:47 e 2026-11-04 20:13
 
-## Descontos ativos sem data de fim (Bagy)
-
-Para voltar, use o CSV de `precos/`.
-
-- 2026-11-11 · daniel · Blusas R$19: 136 variações a 19,00 → `precos/2026-11-11_bagy-blusas-r19-antes.csv`
-- 2026-11-11 · daniel · Veludo cotelê 50%: 72 variações a 59,90 → `precos/2026-11-11_bagy-veludo-cotele-antes.csv`
-- 2026-11-11 · daniel · Blusa de tule gola alta 1911283 20%: 12 variações e pai a 31,92 → `precos/2026-11-11_bagy-blusa-tule-gola-alta-antes.csv`
-
 ## Promoções e ads
+
+- 2026-11-15 · daniel · Bagy: decidir se tira a categoria Blusas R$19 (1298822) do site, já que os preços voltaram → log 2026-11-15 23:47
 
 - 2026-11-03 · daniel · Baixar o ACOS alvo do Combo 3 (Em Alta, Lilih2) e da camiseta gola V (Em Alta, Lilih) para a margem voltar acima de 15% → log 2026-11-03 14:50
 - 2026-11-03 · daniel · Ads da Lilih: decidir se religa (subir ACOS alvo da Em Alta; não religar a QUEIMA TULE como estava); definir qual conta do ML anuncia cada kit → log 2026-11-03 12:14
