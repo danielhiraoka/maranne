@@ -43,11 +43,12 @@ Para voltar, use o CSV de `precos/`.
 - 2026-11-04 · daniel · 2605084: decidir o preço (vínculo 44,90 × Amazon 39,90) e ver se sai de inactive/estoque 0 → log 2026-11-04 20:07
 - 2026-11-04 · daniel · 25343Kit3: estoque chegou? Origem dos R$ 103,21; quais 4 SKUs vinculados não estão no anúncio; corrigir a imagem → log 2026-11-04 20:27 e 2026-11-05 13:02
 - 2026-11-04 · daniel · Tule 1911283ZebraPreta: título saiu "Camisa" e pode faltar o aviso de top não incluído; conferir variações (SKUs com ç), preço e estoque → log 2026-11-04 20:34
-- 2026-11-05 · daniel · Kits 2007113: Kit 5 e Kit 2 com categoria ANTENNA e taxa de 28,76% (testar troca no ASIN B0D5K16C95; falta o formato de list_price); decidir se Kit314 a Kit318 entram; camiseta unitária sem vínculo → log 2026-11-05 11:34, 12:26 e 13:13
+- 2026-11-05 · daniel · Kits 2007113: Kit 5 e Kit 2 com categoria ANTENNA e taxa de 28,76% (testar troca no ASIN B0D5K16C95; falta o formato de list_price); decidir se Kit314 a Kit318 entram → log 2026-11-05 11:34, 12:26 e 13:13
 - 2026-11-05 · daniel · Pantalona 25128: conferir estoque e status; confirmar composição e país de origem; conferir se o vínculo solto do pai (id 1017062057) foi removido → log 2026-11-05 11:34 e 13:13
 - 2026-11-05 · daniel · Lote de 12 clones: ASIN do 25764Kit3; preço e estoque que o Bling mandou; descrição do 231747Kit2 (cita só 2 opções de cor) e do 25764Kit2; fotos principais em dúvida (macacão Vermelho e Marinho com a mesma imagem); preços de 2610161, 2605086Un, 2605086Kit2 e 26072702 → log 2026-11-05 18:04
 - 2026-11-05 · daniel, aline · GTIN: 12 GTINs do macacão 2605085 batem com ASINs de terceiros; descobrir a origem na planilha; conferir a isenção de GTIN no Seller Central → log 2026-11-05 16:24 e 18:04
 - 2026-11-06 · daniel · 26072205 e 26072204: conferir ASINs, preço e estoque; cadastrar custo (0 no Bling e na Emori); ver por que 26072702 está fora de venda; escolher entre os 10 próximos → log 2026-11-06 00:16
+- 2026-11-15 · daniel · Clone da camiseta 2007113Un (MLB3286347431): conferir se o estoque do Bling chegou às 24 variações e se o preço ficou 33,65; Vermelho está paused. O anúncio antigo (ASINs B0D6…, SKUs `2007113Un…`) não tem vínculo no Bling 1: decidir se vincula ou encerra (os dois juntos competem) → log 2026-11-15 23:43
 - 2026-11-05 · daniel · Entender por que a Amazon vende pouco (R$ 334 em 90 dias) → log 2026-11-05 10:50
 
 ## Cadastro
