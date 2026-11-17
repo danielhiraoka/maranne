@@ -121,16 +121,19 @@ servidor dele): o link do Drive só precisa funcionar na hora do cadastro.
    `role: "reader"` (as fotos de dentro herdam). São fotos que irão para a loja
    de qualquer jeito; o resto do Drive continua privado. **Peça OK antes.**
    O conector não consegue desfazer compartilhamento: só manualmente no Drive.
-2. Link de cada foto: `https://drive.google.com/uc?export=view&id=<id do arquivo>`
-   (devolve a foto original; o link `/view` abre página, não serve).
+2. Link de cada foto: `https://lh3.googleusercontent.com/d/<id do arquivo>=s0`
+   (resolução cheia). **Não use** `drive.google.com/uc?export=view&id=…`: o Bling
+   guarda só 1 foto quando todos os links têm o mesmo endereço (testado em 17/11/2026).
+   Sem o `=s0`, a foto vem reduzida. Mandar de novo substitui as fotos, não soma.
 3. No `createProduct` (ou `patchProduct` depois):
    - **pai:** `midia.imagens.imagensURL` com todas as fotos de `unitario`, na
      ordem cor por cor (`preto-01` primeiro = capa);
    - **cada variação:** só as fotos da cor dela (`123PretoP` ← `preto-01`, `preto-02`…).
    - Produto já criado: `patchProduct` no pai com `midia` **não** passa as fotos às
      variações; faça um `patchProduct` por variação (id dela, só `midia`) — testado.
-4. Confira barato: `listProducts` com `fields: ["codigo","imagemURL"]` —
-   vem preenchido quando a foto entrou.
+4. Confira com `getProduct` no pai (traz as variações): conte `midia.imagens.internas`
+   de cada um — tem de bater com o nº de fotos da cor. O `imagemURL` do `listProducts`
+   só mostra que entrou ao menos uma.
 
 ### 7. Registrar
 Log do dia (`#sku/<SKU>`), com ids, preços, de onde veio o fiscal e o que
