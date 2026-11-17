@@ -127,6 +127,8 @@ servidor dele): o link do Drive só precisa funcionar na hora do cadastro.
    - **pai:** `midia.imagens.imagensURL` com todas as fotos de `unitario`, na
      ordem cor por cor (`preto-01` primeiro = capa);
    - **cada variação:** só as fotos da cor dela (`123PretoP` ← `preto-01`, `preto-02`…).
+   - Produto já criado: `patchProduct` no pai com `midia` **não** passa as fotos às
+     variações; faça um `patchProduct` por variação (id dela, só `midia`) — testado.
 4. Confira barato: `listProducts` com `fields: ["codigo","imagemURL"]` —
    vem preenchido quando a foto entrou.
 
