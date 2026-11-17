@@ -1,0 +1,540 @@
+{
+ "tipo": "P",
+ "situacao": "A",
+ "unidade": "UN",
+ "marca": "Maranne",
+ "preco": 89.9,
+ "pesoBruto": 0.4,
+ "pesoLiquido": 0.4,
+ "dimensoes": {
+  "altura": 5,
+  "largura": 10,
+  "profundidade": 10,
+  "unidadeMedida": "1"
+ },
+ "categoria": {
+  "id": 11583108
+ },
+ "tributacao": {
+  "ncm": "6104.63.00",
+  "cest": "28.059.00",
+  "origem": 0
+ },
+ "nome": "Short Saia Feminino Cintura Alta com Bolso",
+ "codigo": "26111704",
+ "formato": "V",
+ "variacoes": [
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Preto;Tamanho:P",
+   "codigo": "26111704PretoP",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Preto;Tamanho:P",
+    "ordem": 1,
+    "produtoPai": {}
+   },
+   "gtin": "7795792472755"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Preto;Tamanho:M",
+   "codigo": "26111704PretoM",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Preto;Tamanho:M",
+    "ordem": 2,
+    "produtoPai": {}
+   },
+   "gtin": "7795792472823"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Preto;Tamanho:G",
+   "codigo": "26111704PretoG",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Preto;Tamanho:G",
+    "ordem": 3,
+    "produtoPai": {}
+   },
+   "gtin": "7795792472892"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Preto;Tamanho:GG",
+   "codigo": "26111704PretoGG",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Preto;Tamanho:GG",
+    "ordem": 4,
+    "produtoPai": {}
+   },
+   "gtin": "7795792472960"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Branco;Tamanho:P",
+   "codigo": "26111704BrancoP",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Branco;Tamanho:P",
+    "ordem": 5,
+    "produtoPai": {}
+   },
+   "gtin": "7795792473134"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Branco;Tamanho:M",
+   "codigo": "26111704BrancoM",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Branco;Tamanho:M",
+    "ordem": 6,
+    "produtoPai": {}
+   },
+   "gtin": "7795792473202"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Branco;Tamanho:G",
+   "codigo": "26111704BrancoG",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Branco;Tamanho:G",
+    "ordem": 7,
+    "produtoPai": {}
+   },
+   "gtin": "7795792473271"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Branco;Tamanho:GG",
+   "codigo": "26111704BrancoGG",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Branco;Tamanho:GG",
+    "ordem": 8,
+    "produtoPai": {}
+   },
+   "gtin": "7795792473448"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Bege;Tamanho:P",
+   "codigo": "26111704BegeP",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Bege;Tamanho:P",
+    "ordem": 9,
+    "produtoPai": {}
+   },
+   "gtin": "7795792473516"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Bege;Tamanho:M",
+   "codigo": "26111704BegeM",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Bege;Tamanho:M",
+    "ordem": 10,
+    "produtoPai": {}
+   },
+   "gtin": "7795792473585"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Bege;Tamanho:G",
+   "codigo": "26111704BegeG",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Bege;Tamanho:G",
+    "ordem": 11,
+    "produtoPai": {}
+   },
+   "gtin": "7795792482723"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Bege;Tamanho:GG",
+   "codigo": "26111704BegeGG",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Bege;Tamanho:GG",
+    "ordem": 12,
+    "produtoPai": {}
+   },
+   "gtin": "7795792482792"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Rosa;Tamanho:P",
+   "codigo": "26111704RosaP",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Rosa;Tamanho:P",
+    "ordem": 13,
+    "produtoPai": {}
+   },
+   "gtin": "7795792482860"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Rosa;Tamanho:M",
+   "codigo": "26111704RosaM",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Rosa;Tamanho:M",
+    "ordem": 14,
+    "produtoPai": {}
+   },
+   "gtin": "7795792483034"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Rosa;Tamanho:G",
+   "codigo": "26111704RosaG",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Rosa;Tamanho:G",
+    "ordem": 15,
+    "produtoPai": {}
+   },
+   "gtin": "7795792483102"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 89.9,
+   "pesoBruto": 0.4,
+   "pesoLiquido": 0.4,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 11583108
+   },
+   "tributacao": {
+    "ncm": "6104.63.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Short Saia Feminino Cintura Alta com Bolso Cor:Rosa;Tamanho:GG",
+   "codigo": "26111704RosaGG",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Rosa;Tamanho:GG",
+    "ordem": 16,
+    "produtoPai": {}
+   },
+   "gtin": "7795792483171"
+  }
+ ]
+}

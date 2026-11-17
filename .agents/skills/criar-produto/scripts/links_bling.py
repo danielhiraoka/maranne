@@ -5,6 +5,7 @@ Uso:
 
 fotos.json (o agente grava depois de subir/copiar as fotos para unitario/):
     {"fotos": {"azul-01.jpg": "<id do arquivo no Drive>", "azul-02.jpg": "...", ...}}
+    Grave as fotos na ordem das cores do produto (a de copias.json): a 1ª cor vira a capa do pai.
 
 Saída (imprime e grava links_bling.json ao lado):
     {"pai": [{"link": ...}, ...],                 # todas, cor por cor, 01 = capa
@@ -28,7 +29,7 @@ def link(file_id):
 
 def montar(fotos):
     por_cor = {}
-    for nome in sorted(fotos):
+    for nome in fotos:  # ordem das cores = ordem do fotos.json (a 1ª cor é a capa do pai)
         m = re.match(r"(.+)-(\d+)\.\w+$", nome)
         if not m:
             raise SystemExit(f"Nome fora do padrão cor-01.jpg: {nome}")
