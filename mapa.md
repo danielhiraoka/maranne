@@ -28,6 +28,7 @@
 - Skills ficam em `.agents/skills/` (`.claude/skills` é atalho)
 - Skill `find-skills` (`.agents/skills/find-skills/`, da Vercel) — procura skills prontas no ecossistema (skills.sh) quando pedirem "tem skill para X?"; usa `npx skills` (precisa de Node)
 - Skill `criar-combos` (`.agents/skills/criar-combos/`) — fotos de kits 3:4 para a Bagy a partir das fotos individuais
+- Skill `converter-heic` (`.agents/skills/converter-heic/`) — converte fotos .HEIC do iPhone para .JPG: abre a caixa para escolher as fotos e salva na subpasta `jpg` da pasta delas, sem apagar o original. Dois cliques: `converter-heic.command` (Mac) ou `converter-heic.bat` (Windows), na raiz
 - Skill `criar-produto` (`.agents/skills/criar-produto/`) — cadastra produto novo no Bling (título, descrição no modelo, preços, cores × tamanhos, fiscal de produto parecido, GTIN) e organiza as fotos do ensaio no Drive
 - Skill `criar-kit-bling` (`.agents/skills/criar-kit-bling/`) — cadastra kits no Bling a partir de um SKU com cores × tamanhos (padrão `<base>Kit21P`)
 - Skill `vincular-amazon-bling` (`.agents/skills/vincular-amazon-bling/`) — vincula no Bling as variações de um anúncio novo da Amazon (código = SKU, pai sem vínculo)

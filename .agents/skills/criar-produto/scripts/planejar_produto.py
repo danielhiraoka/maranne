@@ -76,8 +76,7 @@ def planejar(cfg, pasta):
     if "preco" not in cfg:
         raise SystemExit("Falta o preço de venda (vem do usuário).")
     tamanhos = cfg["tamanhos"]
-    if any(t[:1].isdigit() for t in tamanhos):
-        raise SystemExit("Tamanho começando com número deixaria o SKU ambíguo.")
+    # tamanho numérico (36, 38…) é ok: a cor fica entre o SKU e o tamanho (ex.: 2508262Azul36)
     cores = [c if isinstance(c, dict) else {"nome": c} for c in cfg["cores"]]
     for c in cores:
         c.setdefault("codigo", codigo_cor(c["nome"]))

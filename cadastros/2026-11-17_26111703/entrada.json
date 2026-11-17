@@ -1,0 +1,21 @@
+{
+ "sku": "26111703",
+ "nome": "Calça Wide Leg Feminina de Jezzian Cintura Alta Preta",
+ "preco": 129.9,
+ "situacao": "A",
+ "cores": [
+  "Preto"
+ ],
+ "tamanhos": [
+  "36",
+  "38",
+  "40",
+  "42"
+ ],
+ "gtins": {
+  "26111703Preto36": "7795792463302",
+  "26111703Preto38": "7795792463371",
+  "26111703Preto40": "7795792463548",
+  "26111703Preto42": "7795792463616"
+ }
+}

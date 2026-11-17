@@ -102,6 +102,13 @@ abre as imagens**.
    (`fileId`, `parentId` = id de `unitario`, `title` = nome novo). A foto não
    passa pela conversa e o original fica onde está.
 
+**Fotos no computador** (ex.: pasta em Downloads, uma por cor): suba cada uma
+direto para `unitario/` com `create_file` (`title` = `cor-01.jpg`…, `parentId`,
+`contentMimeType: "image/jpeg"`, `disableConversionToGoogleType: true`) e, em
+`base64Content`, a referência `sha256:<hash>:<caminho absoluto>` (hash com
+`shasum -a 256`; Windows: `certutil -hashfile <arquivo> SHA256`) — a foto não
+passa pela conversa. Testado em 17/11/2026. Salve os ids em `cadastros/<pasta>/fotos.json`.
+
 Se o conector do Drive não estiver ligado nesta ferramenta, avise (ver
 `integracoes.md`) e siga o cadastro sem fotos.
 

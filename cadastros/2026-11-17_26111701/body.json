@@ -1,0 +1,246 @@
+{
+ "tipo": "P",
+ "situacao": "A",
+ "unidade": "UN",
+ "marca": "Maranne",
+ "preco": 129.9,
+ "pesoBruto": 0.5,
+ "pesoLiquido": 0.5,
+ "dimensoes": {
+  "altura": 5,
+  "largura": 10,
+  "profundidade": 10,
+  "unidadeMedida": "1"
+ },
+ "categoria": {
+  "id": 1690544
+ },
+ "camposCustomizados": [
+  {
+   "idCampoCustomizado": 715879,
+   "valor": "54884512"
+  },
+  {
+   "idCampoCustomizado": 715880,
+   "valor": "54884514"
+  },
+  {
+   "idCampoCustomizado": 14820,
+   "valor": "Maranne"
+  },
+  {
+   "idCampoCustomizado": 1328283,
+   "valor": "Wide Leg"
+  }
+ ],
+ "tributacao": {
+  "ncm": "6104.69.00",
+  "cest": "28.059.00",
+  "origem": 0
+ },
+ "nome": "Calça Wide Leg Feminina de Jezzian Cintura Alta Azul",
+ "codigo": "26111701",
+ "formato": "V",
+ "variacoes": [
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 129.9,
+   "pesoBruto": 0.5,
+   "pesoLiquido": 0.5,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 1690544
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715879,
+     "valor": "54884512"
+    },
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 14820,
+     "valor": "Maranne"
+    },
+    {
+     "idCampoCustomizado": 1328283,
+     "valor": "Wide Leg"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6104.69.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Calça Wide Leg Feminina de Jezzian Cintura Alta Azul Cor:Azul;Tamanho:36",
+   "codigo": "26111701Azul36",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Azul;Tamanho:36",
+    "ordem": 1,
+    "produtoPai": {}
+   },
+   "gtin": "7795792453402"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 129.9,
+   "pesoBruto": 0.5,
+   "pesoLiquido": 0.5,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 1690544
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715879,
+     "valor": "54884512"
+    },
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 14820,
+     "valor": "Maranne"
+    },
+    {
+     "idCampoCustomizado": 1328283,
+     "valor": "Wide Leg"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6104.69.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Calça Wide Leg Feminina de Jezzian Cintura Alta Azul Cor:Azul;Tamanho:38",
+   "codigo": "26111701Azul38",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Azul;Tamanho:38",
+    "ordem": 2,
+    "produtoPai": {}
+   },
+   "gtin": "7795792453471"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 129.9,
+   "pesoBruto": 0.5,
+   "pesoLiquido": 0.5,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 1690544
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715879,
+     "valor": "54884512"
+    },
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 14820,
+     "valor": "Maranne"
+    },
+    {
+     "idCampoCustomizado": 1328283,
+     "valor": "Wide Leg"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6104.69.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Calça Wide Leg Feminina de Jezzian Cintura Alta Azul Cor:Azul;Tamanho:40",
+   "codigo": "26111701Azul40",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Azul;Tamanho:40",
+    "ordem": 3,
+    "produtoPai": {}
+   },
+   "gtin": "7795792453648"
+  },
+  {
+   "tipo": "P",
+   "situacao": "A",
+   "unidade": "UN",
+   "marca": "Maranne",
+   "preco": 129.9,
+   "pesoBruto": 0.5,
+   "pesoLiquido": 0.5,
+   "dimensoes": {
+    "altura": 5,
+    "largura": 10,
+    "profundidade": 10,
+    "unidadeMedida": "1"
+   },
+   "categoria": {
+    "id": 1690544
+   },
+   "camposCustomizados": [
+    {
+     "idCampoCustomizado": 715879,
+     "valor": "54884512"
+    },
+    {
+     "idCampoCustomizado": 715880,
+     "valor": "54884514"
+    },
+    {
+     "idCampoCustomizado": 14820,
+     "valor": "Maranne"
+    },
+    {
+     "idCampoCustomizado": 1328283,
+     "valor": "Wide Leg"
+    }
+   ],
+   "tributacao": {
+    "ncm": "6104.69.00",
+    "cest": "28.059.00",
+    "origem": 0
+   },
+   "nome": "Calça Wide Leg Feminina de Jezzian Cintura Alta Azul Cor:Azul;Tamanho:42",
+   "codigo": "26111701Azul42",
+   "formato": "S",
+   "variacao": {
+    "nome": "Cor:Azul;Tamanho:42",
+    "ordem": 4,
+    "produtoPai": {}
+   },
+   "gtin": "7795792462688"
+  }
+ ]
+}

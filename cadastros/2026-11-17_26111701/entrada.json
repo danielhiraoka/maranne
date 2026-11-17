@@ -1,0 +1,21 @@
+{
+ "sku": "26111701",
+ "nome": "Calça Wide Leg Feminina de Jezzian Cintura Alta Azul",
+ "preco": 129.9,
+ "situacao": "A",
+ "cores": [
+  "Azul"
+ ],
+ "tamanhos": [
+  "36",
+  "38",
+  "40",
+  "42"
+ ],
+ "gtins": {
+  "26111701Azul36": "7795792453402",
+  "26111701Azul38": "7795792453471",
+  "26111701Azul40": "7795792453648",
+  "26111701Azul42": "7795792462688"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "sku": "26111702",
+ "nome": "Calça Wide Leg Feminina de Jezzian Cintura Alta Offwhite",
+ "preco": 129.9,
+ "situacao": "A",
+ "cores": [
+  "Offwhite"
+ ],
+ "tamanhos": [
+  "36",
+  "38",
+  "40",
+  "42"
+ ],
+ "gtins": {
+  "26111702Offwhite36": "7795792462855",
+  "26111702Offwhite38": "7795792462992",
+  "26111702Offwhite40": "7795792463067",
+  "26111702Offwhite42": "7795792463234"
+ }
+}
