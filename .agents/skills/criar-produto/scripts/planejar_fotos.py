@@ -7,7 +7,9 @@ listagem.json: arquivos da pasta indicada pelo usuário, como o conector do Driv
     [{"id": "1AbC...", "nome": "IMG_0001.jpg", "pasta": "Preto"},   # dentro da subpasta Preto
      {"id": "1XyZ...", "nome": "vermelho frente.jpg", "pasta": ""}] # solta na pasta indicada
 
-A cor vem, nesta ordem: (1) do nome da subpasta; (2) de uma cor citada no nome do arquivo.
+A cor vem, nesta ordem: (1) do nome da subpasta; (2) de uma cor citada no nome do arquivo;
+(3) de uma cor citada no nome da pasta ("26111701 - Calça Wide Leg Preta ..." -> Preto).
+Também serve para fotos do computador: a listagem sai de listar_fotos_locais.py.
 As fotos não são abertas. Gera copias.json com o que copiar no Drive:
     [{"id": "1AbC...", "de": "IMG_0001.jpg", "para": "preto-01.jpg", "cor": "Preto"}, ...]
 e lista as fotos sem cor reconhecida (pergunte ao usuário; não chute).
@@ -22,10 +24,10 @@ EXTENSOES = {".jpg", ".jpeg", ".png", ".webp", ".heic"}
 
 # nomes gerados por ferramentas (IA, câmera) costumam vir em inglês
 SINONIMOS = {
-    "preto": ["black"], "branco": ["white"], "offwhite": ["off white", "offwhite", "ivory", "cream"],
-    "rosa": ["pink"], "vermelho": ["red"], "azul": ["blue"], "marinho": ["navy"], "verde": ["green"],
-    "bege": ["beige"], "marrom": ["brown"], "cinza": ["gray", "grey"], "amarelo": ["yellow"],
-    "vinho": ["wine", "burgundy"], "lilas": ["lilac"], "roxo": ["purple"], "laranja": ["orange"],
+    "preto": ["preta", "black"], "branco": ["branca", "white"], "offwhite": ["off white", "offwhite", "ivory", "cream"],
+    "rosa": ["pink"], "vermelho": ["vermelha", "red"], "azul": ["blue"], "marinho": ["navy"], "verde": ["green"],
+    "bege": ["beige"], "marrom": ["brown"], "cinza": ["gray", "grey"], "amarelo": ["amarela", "yellow"],
+    "vinho": ["wine", "burgundy"], "lilas": ["lilac"], "roxo": ["roxa", "purple"], "laranja": ["orange"],
     "caqui": ["khaki"], "creme": ["cream"], "nude": ["nude"], "terracota": ["terracotta"],
 }
 
@@ -54,14 +56,17 @@ def planejar(arquivos, cores):
         pasta = a.get("pasta", "")
         cor = next((c for c in cores if normalizar(c) == normalizar(pasta)), None) if pasta else None
         cor = cor or cor_do_arquivo(a["nome"], cores)
+        # pasta com a cor no meio do nome ("26111701 - Calça Wide Leg Azul ...")
+        cor = cor or (cor_do_arquivo(pasta + ".x", cores) if pasta else None)
         (por_cor[cor] if cor else sem_cor).append(a)
 
     copias = []
     for cor, lista in por_cor.items():
         for i, a in enumerate(lista, start=1):
             ext = Path(a["nome"]).suffix.lower()
+            extras = {k: a[k] for k in ("sha256", "mime") if k in a}  # fotos do computador
             copias.append({"id": a["id"], "de": a["nome"], "para": f"{'-'.join(normalizar(cor).split())}-{i:02d}{ext}",
-                           "cor": cor})
+                           "cor": cor, **extras})
     return copias, sem_cor
 
 
