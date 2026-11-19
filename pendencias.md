@@ -11,7 +11,6 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 
 ## Com data
 
-- 2026-11-24 · daniel · 2605084: pausar já a GMV Max Shopee do Kit 2 119754001 (R$ 31 sem venda); unitária 119754000 só segue se a conversão subir (ACOS 34%); levar o Ads do ML para a Lilih2 e para o Kit 2 (a campanha "[DAH] CAMISETA RENDA BARRA" da Lilih não roda com ACOS 6,67%); conferir se o Kit 2 no TikTok a R$ 69,90 é de propósito e se o MLB7827060120 saiu da Black Friday → log 2026-11-19 17:45 e analises/2026-11-19_2605084-ads-promocoes.md
 - 2026-12-01 · daniel · Acaba a Moda Nov26 no ML (Pantalona 64,00; Kit 3 68,00; Kit 5 119,90; Tule segunda pele 30,00) e a Black Friday 2026: decidir o que vem depois → log 2026-11-03 12:47
 - 2026-12-03 · daniel · Acaba o desconto "11.11 Kits Maranne" da Shopee (id 521834793742377); decidir se termina antes → log 2026-11-03 12:47 e 2026-11-04 20:13
 
@@ -21,12 +20,12 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 
 - 2026-11-03 · daniel · Baixar o ACOS alvo do Combo 3 (Em Alta, Lilih2) e da camiseta gola V (Em Alta, Lilih) para a margem voltar acima de 15% → log 2026-11-03 14:50
 - 2026-11-03 · daniel · Ads da Lilih: decidir se religa (subir ACOS alvo da Em Alta; não religar a QUEIMA TULE como estava); definir qual conta do ML anuncia cada kit → log 2026-11-03 12:14
-- 2026-11-03 · daniel · Shopee: pausar as 6 campanhas sem venda e decidir a campanha de grupo (só pelo painel) → log 2026-11-03 12:14 e 2026-11-06 15:09
 - 2026-11-03 · daniel · 2605084 no ML: tentar de novo Premium → Clássico na lilih → log 2026-11-03 20:20
 - 2026-11-04 · daniel · Conferir no painel da Shopee se as 34 variações estão a 65,16 e 34,71 (a Emori contava 33) → log 2026-11-04 20:13
 - 2026-11-04 · daniel · TikTok: conferir preço, estoque e GMV Max (a queda de 06/11 passou: R$ 123/dia em 03–12/11) → log 2026-11-04 18:44 e 2026-11-13 12:17
 - 2026-11-13 · daniel · Pantalona Lilih MLB3999624839 e Tule segunda pele Lilih2 MLB3286413799: decidir saída da Moda Nov26 (desconto sem volume; tule com 10%) → log 2026-11-13 12:17
 - 2026-11-19 · daniel · Shopee com margem de 6,5% (lucro −20% com vendas +78%): conferir no Seller Center por que a taxa subiu de 29% para 34% (~R$ 55/dia); simular preço da camiseta unitária 16988614733 (4,8%, R$ 1,41/peça); baixar para ~3–5% ou encerrar o desconto "11.11 Kits Maranne" (Kits 2 e 5 a ~5–8% com o Ads de grupo) → log 2026-11-13 12:17 e 2026-11-19 16:45
+- 2026-11-19 · daniel · Ads Shopee: pausar a GMV Max do tule gola alta 107049775 (margem 0%); decidir a campanha de grupo "Kit 2 camisetas básicas" junto com o desconto 11.11 Kits (as duas juntas deixam ~8%); simular a camiseta unitária 16988614733 a R$ 31,90–32,90 (leva metade da GMV Max da loja com R$ 1,58/peça); conferir o estoque da pantacourt 3969027920 antes do Ads → log 2026-11-19 17:53 e analises/2026-11-19_shopee-ads.md
 - 2026-11-19 · daniel · Ads ML: tirar o Kit 2 Lilih MLB2895199720 da Em Alta ou baixar o alvo (ACOS 26%); tirar a manga 3/4 Lilih MLB5353470708 da VARIADOS (ACOS 21%, margem 9,9%) → log 2026-11-19 16:45
 - 2026-11-13 · daniel · Lilih2 abaixo de 15%: Combo 5 MLB3272093035 (12,0%; Impulsione até 20/02/2027 — considerar sair depois de 01/12) e Kit 2 MLB3375267590 (13,3%) → log 2026-11-13 12:17 e 2026-11-19 16:45
 - 2026-11-13 · daniel · Estoque: repor a Pantacourt Shopee 3969027920 (zerada); conferir no Bling a Pantalona 25128 (44 un na Lilih, ~28 dias) → log 2026-11-13 12:17
