@@ -11,7 +11,7 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 
 ## Com data
 
-- 2026-11-24 · daniel · Rever as campanhas de 17/11 da 2605084 (ML "[DAH] CAMISETA RENDA BARRA"; Shopee GMV Max 119754000 e 119754001): sem melhora, pausar ou subir o ROAS alvo; ver por que o ML tirou 4 anúncios da Lilih2 da Black Friday em 19/11 → log 2026-11-19 16:45
+- 2026-11-24 · daniel · 2605084: pausar já a GMV Max Shopee do Kit 2 119754001 (R$ 31 sem venda); unitária 119754000 só segue se a conversão subir (ACOS 34%); levar o Ads do ML para a Lilih2 e para o Kit 2 (a campanha "[DAH] CAMISETA RENDA BARRA" da Lilih não roda com ACOS 6,67%); conferir se o Kit 2 no TikTok a R$ 69,90 é de propósito e se o MLB7827060120 saiu da Black Friday → log 2026-11-19 17:45 e analises/2026-11-19_2605084-ads-promocoes.md
 - 2026-12-01 · daniel · Acaba a Moda Nov26 no ML (Pantalona 64,00; Kit 3 68,00; Kit 5 119,90; Tule segunda pele 30,00) e a Black Friday 2026: decidir o que vem depois → log 2026-11-03 12:47
 - 2026-12-03 · daniel · Acaba o desconto "11.11 Kits Maranne" da Shopee (id 521834793742377); decidir se termina antes → log 2026-11-03 12:47 e 2026-11-04 20:13
 
@@ -22,7 +22,7 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 - 2026-11-03 · daniel · Baixar o ACOS alvo do Combo 3 (Em Alta, Lilih2) e da camiseta gola V (Em Alta, Lilih) para a margem voltar acima de 15% → log 2026-11-03 14:50
 - 2026-11-03 · daniel · Ads da Lilih: decidir se religa (subir ACOS alvo da Em Alta; não religar a QUEIMA TULE como estava); definir qual conta do ML anuncia cada kit → log 2026-11-03 12:14
 - 2026-11-03 · daniel · Shopee: pausar as 6 campanhas sem venda e decidir a campanha de grupo (só pelo painel) → log 2026-11-03 12:14 e 2026-11-06 15:09
-- 2026-11-03 · daniel · 2605084 no ML: avaliar Ads; tentar de novo Premium → Clássico na lilih → log 2026-11-03 20:20
+- 2026-11-03 · daniel · 2605084 no ML: tentar de novo Premium → Clássico na lilih → log 2026-11-03 20:20
 - 2026-11-04 · daniel · Conferir no painel da Shopee se as 34 variações estão a 65,16 e 34,71 (a Emori contava 33) → log 2026-11-04 20:13
 - 2026-11-04 · daniel · TikTok: conferir preço, estoque e GMV Max (a queda de 06/11 passou: R$ 123/dia em 03–12/11) → log 2026-11-04 18:44 e 2026-11-13 12:17
 - 2026-11-13 · daniel · Pantalona Lilih MLB3999624839 e Tule segunda pele Lilih2 MLB3286413799: decidir saída da Moda Nov26 (desconto sem volume; tule com 10%) → log 2026-11-13 12:17
