@@ -11,10 +11,12 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 
 ## Com data
 
+- 2026-11-24 · daniel · Rever a automação de promoções do ML com 4 dias completos (vendas dos itens que entraram, margem, Kit 2/camiseta/Kit 3 da Lilih que pararam em 20/11) → log 2026-11-20 22:52 e analises/2026-11-20_automacao-promocoes-ml.md
 - 2026-12-01 · daniel · Acaba a Moda Nov26 no ML (Pantalona 64,00; Kit 3 68,00; Kit 5 119,90; Tule segunda pele 30,00) e a Black Friday 2026: decidir o que vem depois → log 2026-11-03 12:47
 - 2026-12-03 · daniel · Acaba o desconto "11.11 Kits Maranne" da Shopee (id 521834793742377); decidir se termina antes → log 2026-11-03 12:47 e 2026-11-04 20:13
 
 ## Promoções e ads
+
 
 - 2026-11-15 · daniel · Bagy: decidir se tira a categoria Blusas R$19 (1298822) do site, já que os preços voltaram → log 2026-11-15 23:47
 
