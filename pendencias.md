@@ -55,6 +55,7 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 
 ## Cadastro
 
+- 2026-11-26 · daniel · Atributos ML: manga 3/4 MLB5353470708 com o mesmo GTIN 7795788969320 em 12 variações (trocar pelos da planilha?) e Cor filtrável vazia no Verde; camiseta MLB3907074383 Amarelo Manteiga sem GTIN; Combo 3 Lilih2 MLB3375318744 com peso/medidas da embalagem 0; ver se a nota de qualidade da Emori subiu → log 2026-11-26 16:17 e analises/2026-11-26_atributos-ml.md
 - 2026-11-03 · daniel, aline · 26101301 (blusa de tule manga curta): medidas, fotos (Drive e Bling) e publicar nos canais → log 2026-11-03 15:31
 - 2026-11-17 · daniel, aline · Short saia 26111704: descrição (daniel manda), composição/tecido, conferir NCM 6104.63.00 (copiado do shorts 2589), estoque e publicar nos canais → log 2026-11-17 17:58
 - 2026-11-17 · daniel, aline · Calças wide leg 26111701/02/03: conferir o NCM 6104.69.00 (copiado de jeans de malha), preencher composição/tecido, descrição, estoque e publicar nos canais → log 2026-11-17 16:40
