@@ -140,3 +140,10 @@ Cerca de 175 anúncios do ML revisados nas duas contas; uns 130 receberam atribu
 - Peso/medidas zerados (não é atributo, é embalagem): Combo 3 MLB3375318744, Kit 2 MLB3147208096, camiseta MLB3333283501, Kit 3 regatas MLB4285317166, Kit 2 regatas MLB4285166766, regata MLB5301803366, Kit 3 regatas MLB5159772768, pantufas, kits manga 3/4 e outros.
 - Manga 3/4 MLB5353470708: mesmo GTIN em 12 variações.
 - Pode haver mais anúncios ativos: a Emori só lista 30 por consulta; as famílias novas (MLB5…/MLB6…) foram conferidas por amostra.
+
+### Pendências resolvidas pela descrição do anúncio (16:52)
+- Calças de courino (8): fechamento Elástico ("elástico na cintura" na descrição).
+- Pantalonas de alfaiataria MLB5419409998 ("elástico nas costas"), MLB4470197971 ("elástico na cintura") e Kit 2 MLB4144208721 (mesmo modelo e medidas da MLB5419409998): fechamento Elástico.
+- Shorts alfaiataria MLB5783582112: composição 95% Poliéster e 5% Elastano; ano 2025 (anúncio de 10/2025).
+- Pantufa fechada MLB4562010703: sola Borracha (TPR), material do calçado Poliéster.
+Continuam vazios (a descrição não diz): fechamento das calças couro PU (descrição fala só em "estilo legging"); cintura e caimento dos shorts MLB5783582112 e do conjunto colete MLB5904099438; composição do conjunto cardigan Duna MLB5904073144 — **a descrição dele está copiada do conjunto colete Marram** (fala em colete e botões); corrigir a descrição.
