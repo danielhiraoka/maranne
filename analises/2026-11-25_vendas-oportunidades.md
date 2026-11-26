@@ -73,7 +73,7 @@ Períodos: 14 dias (11–24/11) por anúncio; semana a semana 11–17/11 × 18�
 ## 4. Oportunidades em canais
 
 1. **TikTok Shop:** 22% de margem e ROAS 12 no GMV Max; o catálogo que vende lá (pantalona, manga 3/4, conjuntos, baby doll) tem as maiores margens da empresa. Subir o orçamento do GMV Max e, se der, testar afiliados/vídeos (a comissão de afiliado foi só R$ 81 na semana).
-2. **Amazon (R$ 50/dia):** vende sem Ads e com margem boa. Correção de 19:42: os ASINs "zerados" eram os anúncios pai; as variações têm estoque, mas bem abaixo do Bling (ex.: blusa renda 2605084OffwhiteM 10 na Amazon × 221 no Bling). Ressincronizar o estoque antes de clonar mais produtos. A taxa da Amazon não aparece na Emori (R$ 1,97): conferir a conciliação.
+2. **Amazon (R$ 50/dia):** vende sem Ads e com margem boa. Correção de 23:52: o estoque está sincronizado. A Amazon e as outras lojas recebem o estoque multiempresa (Bling 1 + MRN II); a diferença vista às 19:42 vem do saldo negativo no MRN II (ex.: 2605084OffwhiteM 221 − 213 = 8). A taxa da Amazon não aparece na Emori (R$ 1,97): conferir a conciliação.
 3. **Shopee — produtos que não estão lá:** o conjunto cardigan + shorts 2309181 não tem anúncio na Shopee. Kit 2 pantalona também não.
 4. **Bagy (site):** sem dado na Emori. Vale um olhar à parte (tráfego e conversão) antes de decidir investir.
 5. **Shein e Magalu:** já existem lojas "Shein II" e "Magalu (MRN)" no Bling com produtos vinculados, mas a Emori não lê esses canais. Vale ver no Bling quanto vendem antes de investir (correção de 25/11 19:42).

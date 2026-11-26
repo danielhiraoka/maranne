@@ -79,5 +79,6 @@ Ao criar uma pasta ou tipo de página novo, adicione uma linha no `mapa.md`.
 - **LGPD:** nunca gravar nome, CPF, endereço, telefone ou e-mail de clientes. Só nº do pedido e valores.
 - Não duplicar números que a Emori/Bling já guardam; registrar o que foi feito, por quê e o resultado.
 - Ações que alteram marketplace/ERP: confirmar com o usuário antes de executar.
+- **Estoque = multiempresa (Bling 1 + MRN II).** O saldo real de um SKU é a soma das duas contas Bling (`id_empresa` `05eb6a2049b5fa1ef5b1e2bf76d3fafd` e `c11698532af5bf698c6f57053f307945`), e é esse número que vai para todas as lojas (todas usam o depósito "Geral"). `getStockBalance`/`listProducts` do conector Bling leem só o Bling 1: some o MRN II pelo NFE DAH (`bling_api_leitura`, rota `produtos.listar` com `codigo` e o `id_empresa` do MRN II, campo `estoque.saldoVirtualTotal`). O MRN II pode estar negativo. Nunca informe o saldo de uma conta só como estoque.
 - **Antes de criar qualquer produto no Bling**, confira que nenhum SKU que vai ser criado (pai e variações) já existe: `listProducts` com `codigos` e `criterio: "5"`. Se existir, não crie — mostre e pergunte.
 - **SKU de kit:** pai `<SKU base>Kit<N>` (N = nº de peças: Kit2, Kit3, Kit5); variações `<SKU base>Kit<N><combinação><tamanho>` (Kit21P, Kit22M… / Kit51G, Kit52G…). Detalhes na skill `criar-kit-bling`.
