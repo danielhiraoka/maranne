@@ -11,12 +11,15 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 
 ## Com data
 
+- 2026-11-28 · daniel · Refazer a leitura da Black Friday com o dia 27/11 fechado (a Shopee parou de sincronizar às 11h50; GA4 atrasado) → log 2026-11-27 20:50 e analises/2026-11-27_black-friday.md
+- 2026-11-30 · daniel · Cyber Monday: decidir oferta do site (modelo do 11.11), Meta de volta a ≥ R$ 3.400/dia e ACOS da Em Alta (Lilih e Lilih2) a ~15% até 30/11, voltando em 01/12 → log 2026-11-27 20:50
 - 2026-11-24 · daniel · Rever a automação de promoções do ML com 4 dias completos (vendas dos itens que entraram, margem, Kit 2/camiseta/Kit 3 da Lilih que pararam em 20/11) → log 2026-11-20 22:52 e analises/2026-11-20_automacao-promocoes-ml.md
 - 2026-12-01 · daniel · Acaba a Moda Nov26 no ML (Pantalona 64,00; Kit 3 68,00; Kit 5 119,90; Tule segunda pele 30,00) e a Black Friday 2026: decidir o que vem depois → log 2026-11-03 12:47
 - 2026-12-03 · daniel · Acaba o desconto "11.11 Kits Maranne" da Shopee (id 521834793742377); decidir se termina antes → log 2026-11-03 12:47 e 2026-11-04 20:13
 
 ## Promoções e ads
 
+- 2026-11-27 · daniel · Megaeventos (12.12, Natal, 2027): decidir se cria regra de margem de evento (~8–10% em 3 a 5 produtos-âncora por 3–4 dias), verba reservada de Meta/Ads e calendário 11.11 × BF → log 2026-11-27 20:50 e analises/2026-11-27_black-friday.md
 
 - 2026-11-15 · daniel · Bagy: decidir se tira a categoria Blusas R$19 (1298822) do site, já que os preços voltaram → log 2026-11-15 23:47
 
