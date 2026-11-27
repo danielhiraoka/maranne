@@ -34,6 +34,7 @@ Decisões **em vigor** sobre preço, promoção, ads e Amazon. Leia antes de pro
 
 - Anúncios novos entram por clone (Emori) de um anúncio do ML, Shopee ou TikTok; depois, vínculo no Bling pela skill `vincular-amazon-bling`.
 - **Preço = o do Mercado Livre**, não a sugestão da Emori. Sem anúncio no ML: preço do canal de origem, igual ao do Bling. → log 2026-11-05 15:47 e 2026-11-06 00:01
+- Grade completa: subir todas as variações do Bling. Se o anúncio do ML não tem a grade inteira, clonar do anúncio da Shopee que tem, com o preço do ML. → log 2026-11-26 17:41
 - Atributos padrão: faixa etária Adulto; cuidados Lavagem à máquina; tamanho especial Padrão; cores pela composição do Bling. → log 2026-11-04 20:27 e 2026-11-05 15:47
 - GTIN: enviar **sem GTIN** (isenção). Nunca aceitar troca de model_number que ligue a peça a um ASIN de terceiro. A isenção ainda precisa ser conferida no Seller Central (ver `pendencias.md`). → log 2026-11-05 16:24
 - Envio que demora ou dá timeout: **não reenviar**; conferir antes no Seller Central ou na Emori se o anúncio foi criado. → log 2026-11-05 11:24

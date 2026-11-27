@@ -51,6 +51,7 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 - 2026-11-06 · daniel · 26072205 e 26072204: conferir ASINs, preço e estoque; cadastrar custo (0 no Bling e na Emori); ver por que 26072702 está fora de venda; escolher entre os 10 próximos → log 2026-11-06 00:16
 - 2026-11-15 · daniel · Clone da camiseta 2007113Un (MLB3286347431): conferir se o estoque do Bling chegou às 24 variações e se o preço ficou 33,65; Vermelho está paused. O anúncio antigo (ASINs B0D6…, SKUs `2007113Un…`) não tem vínculo no Bling 1: decidir se vincula ou encerra (os dois juntos competem) → log 2026-11-15 23:43
 - 2026-11-25 · daniel · Saldo negativo no Bling MRN II (ex.: 2605084OffwhiteM −213, 25343UnOffwhiteP −209, 2007113UnPretoG −862) puxa para baixo o estoque multiempresa que vai a todas as lojas: entender de onde vem (vendas baixando no MRN II sem entrada?); o estoque válido é a soma das duas contas. A taxa da Amazon quase não aparece na Emori (R$ 1,97 em 18–24/11) → log 2026-11-25 23:52
+- 2026-11-26 · daniel · Regata decote quadrado na Amazon (B0HT1MJH1P un. 39,90 / B0HT1DZWN1 Kit 2 59,90, vinculados no Bling 1): conferir no Seller Central as fotos principais e se todas as 72 variações têm ASIN e estoque; resolver o saldo do MRN II (Branco e G zerados na soma) → log 2026-11-26 17:41 e 22:37
 - 2026-11-05 · daniel · Entender por que a Amazon vende pouco (R$ 334 em 90 dias) → log 2026-11-05 10:50
 
 ## Cadastro
