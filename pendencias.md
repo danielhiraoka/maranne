@@ -13,7 +13,8 @@ Migrada do log em 2026-11-12. Os itens abaixo estavam abertos **segundo o log**;
 
 - 2026-11-28 · daniel · Refazer a leitura da Black Friday com o dia 27/11 fechado (a Shopee parou de sincronizar às 11h50; GA4 atrasado) → log 2026-11-27 20:50 e analises/2026-11-27_black-friday.md
 - 2026-11-28 · daniel · Regata decote quadrado 2501141: repor (estoque real 321 peças, G = 17 no total, Branco = 1, Preto P = 0). Sem isso o conjunto "3 Decote QD" do Meta (ROAS 4,6) fica parado → log 2026-11-27 21:29 e 21:45
-- 2026-11-30 · daniel · Meta do site até a Cyber Monday: subir o "Kit 5 camiseta" (ROAS 6,2), religar Kit 2 alça poliamida e regata poliamida kit23, fazer uma live, corrigir a grade furada (camiseta renda M, 2 calças P/M, macacão, kit um ombro) → log 2026-11-27 21:29
+- 2026-11-30 · daniel · Ver o resultado dos 3 conjuntos religados em 27/11 (Kit 2 alça poliamida, regata poliamida kit23, Kit 3 blusa 3/4, R$ 100/dia cada); pausar os que ficarem com ROAS abaixo de ~3 → log 2026-11-27 21:36
+- 2026-11-30 · daniel · Meta do site até a Cyber Monday: subir o "Kit 5 camiseta" (ROAS 6,2), fazer uma live, corrigir a grade furada (camiseta renda M, 2 calças P/M, macacão, kit um ombro) → log 2026-11-27 21:29
 - 2026-11-30 · daniel · Cyber Monday: decidir oferta do site (modelo do 11.11), Meta de volta a ≥ R$ 3.400/dia e ACOS da Em Alta (Lilih e Lilih2) a ~15% até 30/11, voltando em 01/12 → log 2026-11-27 20:50
 - 2026-11-24 · daniel · Rever a automação de promoções do ML com 4 dias completos (vendas dos itens que entraram, margem, Kit 2/camiseta/Kit 3 da Lilih que pararam em 20/11) → log 2026-11-20 22:52 e analises/2026-11-20_automacao-promocoes-ml.md
 - 2026-12-01 · daniel · Acaba a Moda Nov26 no ML (Pantalona 64,00; Kit 3 68,00; Kit 5 119,90; Tule segunda pele 30,00) e a Black Friday 2026: decidir o que vem depois → log 2026-11-03 12:47
